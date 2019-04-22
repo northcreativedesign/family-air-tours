@@ -1,0 +1,174 @@
+{
+  "lakeflights": [
+    {
+      "destination": "Alva Bay",
+      "time": "18 min",
+      "price": "$690.00"
+    },
+    {
+      "destination": "Anan Lake",
+      "time": "40 min",
+      "price": "$1,490.00"
+    },
+    {
+      "destination": "Anchor Pass",
+      "time": "30 min",
+      "price": "$1,120.00"
+    },
+    {
+      "destination": "Bakewell Lake",
+      "time": "30 min",
+      "price": "$1,120.00"
+    },
+    {
+      "destination": "Barnes Lake",
+      "time": "42 min",
+      "price": "$1,550.00"
+    },
+    {
+      "destination": "Big Goat Lake",
+      "time": "28 min",
+      "price": "$1,120.00"
+    },
+    {
+      "destination": "Boswick Lake",
+      "time": "10 min",
+      "price": "$525.00"
+    },
+    {
+      "destination": "Cheacats Lake",
+      "time": "22 min",
+      "price": "$850.00"
+    },
+    {
+      "destination": "Ella Lake",
+      "time": "18 min",
+      "price": "$690.00"
+    },
+    {
+      "destination": "Fish Creek",
+      "time": "15 min",
+      "price": "$585.00"
+    },
+    {
+      "destination": "Heckman or SE Heckman",
+      "time": "15 min",
+      "price": "$585.00"
+    },
+    {
+      "destination": "Helm Creek or Bay Cabin",
+      "time": "15 min",
+      "price": "$585.00"
+    },
+    {
+      "destination": "Hugh Smith Lake",
+      "time": "27 min",
+      "price": "$1,120.00"
+    },
+    {
+      "destination": "Humpback Lack",
+      "time": "30 min",
+      "price": "$1,120.00"
+    },
+    {
+      "destination": "Jordan Lake",
+      "time": "18 min",
+      "price": "$690.00"
+    },
+    {
+      "destination": "Josephine Lake",
+      "time": "28 min",
+      "price": "$1,400.00"
+    },
+    {
+      "destination": "Karta Lake or River",
+      "time": "25 min",
+      "price": "$940.00"
+    },
+    {
+      "destination": "Kegan Lake or Cove",
+      "time": "22 min",
+      "price": "$835.00"
+    },
+    {
+      "destination": "LeDuc Lake",
+      "time": "45 min",
+      "price": "$1,700.00"
+    },
+    {
+      "destination": "Manzanita Lake Cabin",
+      "time": "22 min",
+      "price": "$840.00"
+    },
+    {
+      "destination": "Marten Lake",
+      "time": "50 min",
+      "price": "$1,830.00"
+    },
+    {
+      "destination": "McDonald Lake",
+      "time": "27 min",
+      "price": "$1,120.00"
+    },
+    {
+      "destination": "Mirror Lake",
+      "time": "18 min",
+      "price": "$690.00"
+    },
+    {
+      "destination": "Orchard Lake",
+      "time": "27 min",
+      "price": "$1,120.00"
+    },
+    {
+      "destination": "Patching Lake",
+      "time": "18 min",
+      "price": "$690.00"
+    },
+    {
+      "destination": "Reflection Lake",
+      "time": "33 min",
+      "price": "$1,225.00"
+    },
+    {
+      "destination": "Salmon Bay Lake North POW",
+      "time": "50 min",
+      "price": "$1,830.00"
+    },
+    {
+      "destination": "Salmon Lake Thorne Bay",
+      "time": "27 min",
+      "price": "$1,120.00"
+    },
+    {
+      "destination": "Sarkar Lake",
+      "time": "48 min",
+      "price": "$1,760.00"
+    },
+    {
+      "destination": "Shipley Bay",
+      "time": "58 min",
+      "price": "$2,110.00"
+    },
+    {
+      "destination": "Sweetwater Lake",
+      "time": "42 min",
+      "price": "$1,550.00"
+    },
+    {
+      "destination": "Wilson Narrows Cabin",
+      "time": "32 min",
+      "price": "$1,190.00"
+    },
+    {
+      "destination": "Wilson View Cabin",
+      "time": "33 min",
+      "price": "$1,225.00"
+    },
+    {
+      "destination": "Winstanley Lake",
+      "time": "21 min",
+      "price": "$800.00"
+    }
+  ]
+}

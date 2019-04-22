@@ -1,0 +1,87 @@
+---
+title: Family Air Tours | Ketchikan AK | Charter Flights
+header: LAKE TRIPS & UNGUIDED TOURS
+sub: TRANSPORTATION COSTS AND LOCATIONS
+---
+
+<section class="lakelist-hero">
+  <div class="grid-container fluid">
+    <div class="grid-x">
+      <div class="cell medium-12">
+        <div class="hero">
+          <!-- Hero Header Section -->
+          <div class="grid-container">
+            <div class="grid-x">
+              <div class="cell medium-12">
+                <div class="white-box">
+                  <h1>Lake Trips &amp; <span>Unguided Tours</span></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-container">
+            <div class="grid-x">
+              <div class="small-12 cell down-arrow otherpages-arrow">
+                <h3>EXPLORE</h3>
+               <a href="#lake-header"><i class="arrow down"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="lake-header" id="lake-header">
+  <div class="grid-container fluid">
+    <div class="grid-x">
+      <div class="medium-1 cell">
+        <div class="lake-header__ver-bar"></div>
+      </div>
+      <div class="cell small-11 medium-10 lmedium-9 lake-header__main-header">
+        <h1>{{header}}</h1>
+        <h2>{{sub}}</h2>
+      </div>
+      <div class="cell lmedium-2 reserve-now">
+        <a class="button lake-header__button" href="reservations.html">Reserve Now</a>
+      </div>
+    </div>
+    <div class="grid-x lake-header__description">
+      <div class="cell">
+        <p>We offer transportation to a number of lakes and streams in the area for camping and unguided fishing trips. Below is a list of prices for many of them. Feel free to ask us which ones we’d recommend depending on the time of year and type of fishing you’re hoping to do. We also offer different types of gear to rent during your trip, check out our list of <a href="{{root}}/assets/docs/rental_list.pdf" target="_blank" class="equipment-rentals">Equipment Rentals</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="lake-list">
+  <div class="grid-container">
+    <div class="grid-x">
+      <div class="small-4 medium-4 cell">
+        <h4>CABIN OR LAKE</h4>
+      </div>
+      <div class="small-4 medium-4 cell">
+        <h4>FLIGHT TIME (ONE WAY)</h4>
+      </div>
+      <div class="small-4 medium-4 cell">
+        <h4>CHARTER PRICE</h4>
+      </div>
+    </div>
+    {{#each laketrips.lakeflights}}
+    <div class="grid-x">
+      <div class="cell small-4 medium-4">
+        <h5>{{destination}}</h5>
+      </div>
+      <div class="cell small-4 medium-4">
+        <h5>{{time}}</h5>
+      </div>
+      <div class="cell small-4 medium-4">
+        <h5>{{price}}</h5>
+      </div>
+    </div>
+    <hr>
+    {{/each}}
+  </div>
+</section>

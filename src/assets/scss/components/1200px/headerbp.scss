@@ -1,0 +1,18 @@
+@include breakpoint(xlarge only) {
+  .top-bar-left {
+    p {
+      font-size: 1rem;
+    }
+  }
+  .top-bar-center {
+    width: 200px;
+    a {
+      font-size: 3.3rem;
+    }
+  }
+  .top-bar-right {
+    a {
+      padding: 0.7rem 0.4rem !important;
+    }
+  }
+}

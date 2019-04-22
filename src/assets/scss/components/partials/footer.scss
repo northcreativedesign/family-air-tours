@@ -1,0 +1,180 @@
+.family-footer {
+  height: 37.438rem;
+  @include breakpoint(large down) {
+    height: auto;
+  }
+  background-color: #6c3030;
+
+  .grid-container {
+    padding-left: 4.9375rem;
+    @include breakpoint(medium down) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+// Far Left Container
+
+  &__contact {
+    padding-top: 2.65rem;
+    .xlarge-offset-4 {
+      margin-left: 31.333%;
+    }
+    h1 {
+      text-shadow: 0 0.188rem 0.563rem rgba(0, 0, 0, 0.28);
+      color: #ffffff;
+      font-family: $amithen;
+      font-size: 6.625rem;
+      font-weight: 400;
+      text-align: center;
+    }
+    h5 {
+      // padding-top: 2.25rem;
+      color: #ffffff;
+      font-family: $proxima;
+      font-size: 1.563rem;
+      font-weight: 400;
+      letter-spacing: 0.156rem;
+      text-align: center;
+    }
+    .button {
+      display: block;
+      margin: 0 auto;
+      width: 14.5rem;
+      height: 2.25rem;
+      box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.43);
+      background-color: #9d6230;
+      opacity: 0.62;
+      color: white;
+      font-family: $proxima;
+      font-size: 1.375rem;
+      font-weight: 700;
+      letter-spacing: 0.138rem;
+      text-transform: uppercase;
+      padding-top: 8px;
+    }
+    .small-1 {
+      margin-top: 1rem;
+      &:nth-child(2) {
+        margin-left: 26px;
+        margin-right: 22px;
+        @include breakpoint(xlarge down) {
+          margin-left: 30px;
+        }
+      }
+      &:nth-child(3) {
+        padding-top: 5px;
+      }
+    }
+    .small-offset-3 {
+      img {
+        margin-left: 32px;
+      }
+    }
+  }
+
+  // End Far Left Container
+  // Mid Left Container
+
+  &__forest {
+    .forest-image {
+      margin: 0 auto;
+      display: block;
+      padding-top: 6.25rem;
+    }
+    p {
+      color: #ffffff;
+      font-family: $proxima;
+      font-size: 1.063rem;
+      font-weight: 400;
+      letter-spacing: 0.021rem;
+      line-height: 1.5rem;
+      text-align: center;
+    }
+    .forest-text {
+      padding-left: 5rem;
+      padding-right: 5rem;
+      padding-top: 2rem;
+    }
+    .kvb-info {
+      padding-top: 5rem;
+    }
+   }
+
+   &__popular {
+     padding-top: 5rem;
+     padding-left: 4rem;
+     @include breakpoint(large down) {
+       padding-left: 5rem;
+     }
+
+     @include mobileland {
+       width: 50%;
+       padding-left: 2rem;
+     }
+
+     h4 {
+       color: #ffffff;
+      font-family: $proxima;
+      font-size: 1.563rem;
+      font-weight: 700;
+      letter-spacing: 0.156rem;
+      text-transform: uppercase;
+    }
+     hr {
+      width: 18.063rem;
+      border: 0.125rem solid #ffffff;
+      margin: 1.25rem 0;
+     }
+     p {
+       color: #ffffff;
+      font-family: $proxima;
+      font-size: 1.125rem;
+      font-weight: 400;
+      letter-spacing: 0.023rem;
+      line-height: 1.5rem;
+     }
+   }
+   &__policies {
+     @extend .family-footer__popular;
+     .customize {
+         padding-top: 2rem;
+         padding-right: 50px;
+     }
+     img {
+       margin-top: -2rem;
+       margin-bottom: 1.8rem;
+     }
+   }
+}
+
+
+
+
+.ncdesign-footer {
+    height: 4rem;
+    background-color: #9d6230;
+    width: 100%;
+    @include breakpoint(large down) {
+      height: auto;
+    }
+    p {
+      color: #ffffff;
+      font-family: $proxima;
+      font-size: 1.25rem;
+      font-weight: 400;
+      letter-spacing: 0.125rem;
+      text-align: center;
+      margin-top: 1rem;
+      @include breakpoint(large down) {
+        font-size: 1rem;
+      }
+      @include breakpoint(medium down landscape retina) {
+        font-size: 0.8rem;
+      }
+    }
+    a {
+      border-bottom: 2px solid #fff;
+      padding-bottom: 2px;
+    }
+}

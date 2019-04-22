@@ -1,0 +1,72 @@
+// TODO: Replace Kyaking Photo
+// TODO: FIX GUIDE HEADER STYLING IN BLOCKS
+// TODO: FIX SPACING
+// TODO: Fix Social Icons in hero image from dropping below the image
+// TODO: Fix Glacier Discover More Button
+
+
+@include breakpoint(large down) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .tour-description {
+    margin-top: 6.25rem;
+    .rates {
+      padding-left: 0;
+    }
+    h6 {
+      padding-left: 0;
+    }
+  }
+
+  /****************************************************************************
+                          CHARTER PAGE LARGE BREAKPOINT
+  *****************************************************************************/
+
+
+  .charters {
+    &__main-header {
+      margin-left: 0;
+    }
+    .medium-1 {
+      width: 2%;
+    }
+    &__button {
+      margin-left: -3rem;
+    }
+  }
+
+
+
+  /****************************************************************************
+                           LAKE LIST PAGE LARGE BREAKPOINT
+  *****************************************************************************/
+
+  .lake-header {
+    &__main-header {
+      margin-left: 0;
+    }
+    .medium-1 {
+      width: 2%;
+    }
+    &__button {
+      margin-left: -3rem;
+    }
+  }
+} // LARGE BREAKPOINT
+
+@include breakpoint(medium down) {
+
+
+  .tour-header {
+    &__main-header {
+      margin-left: -3rem;
+      margin-top: -0.8rem;
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+}

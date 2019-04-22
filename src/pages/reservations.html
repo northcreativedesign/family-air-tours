@@ -1,0 +1,375 @@
+
+<!-- RESERVATIONS HERO SECTION -->
+
+<section id="reservations-hero">
+  <div class="grid-container fluid">
+    <div class="grid-x">
+      <div class="cell medium-12">
+        <div class="small-12 cell">
+          <div class="responsive-embed widescreen service-hero-video">
+            <video preload="metadata" autoplay="true" muted="true" loop="true" class="herovideo1" playsinline>
+    		          <source src="{{root}}assets/video/familyair_hero.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESERVATION DESCRIPTION TEXT -->
+
+<section class="reservations">
+  <div class="grid-container fluid">
+    <div class="grid-x reservations__header-container">
+      <div class="small-1 medium-1 cell">
+        <div class="reservations__ver-bar"></div>
+      </div>
+      <div class="cell small-11 medium-11 reservations__main-header">
+        <h1>RESERVATIONS</h1>
+        <h2>FLY WITH US, FLY LIKE FAMILY</h2>
+      </div>
+    </div>
+    <div class="grid-x reservations__description">
+      <div class="cell">
+        <p>If you would like to make a booking for one of the below tours, please fill out the following details. If you want to book a different trip, a charter, or a lake trip dropoff, please fill out the appropriate details. Then, use the comments section to clarify, or contact us by phone (907) 247-1305 or by email <a href="mailto: info@familyairtours.com">info@familyairtours.com</a></p>
+
+        <p>We specialize in custom trips for you. If you don’t see the trip or tour you want please contact us. We will make every attempt to accommodate you and create the trip of your dreams.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- RESERVATION FORM SECTION -->
+
+<section class="reservation-form">
+  <form id="contactform" method="post" action="mailer.php">
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <!-- TOUR FIRST CHOICE -->
+        <div class="medium-6 xlarge-4 cell">
+          <h3>TRIP OPTION FIRST CHOICE</h3>
+          <label for="tripOne">
+            <select id="tripOne" name="tripOne">
+              <option value="Misty Fjords Deluxe">Misty Fjords Deluxe</option>
+              <option value="Misty Fjords Basic">Misty Fjords Basic</option>
+              <option value="Misty Fjords Seaplane & Crab Feast">Misty Fjords Seaplane & Crab Feast</option>
+              <option value="Flightseeing & Crabfeast">Flightseeing & Crab Feast</option>
+              <option value="Dave's Choice">Dave's Choice</option>
+              <option value="Full Guided Fishing">Full Guided Fishing</option>
+              <option value="Mini Guided Fishing">Mini Guided Fishing</option>
+              <option value="Guided Bear Viewing">Guided Bear Viewing</option>
+              <option value="Road Based Fishing">Road Based Fishing</option>
+              <option value="Charter Flight">Charter Flight</option>
+              <option value="Lake Flight">Lake Trips</option>
+            </select>
+          </label>
+        </div>
+        <!-- TOUR SECOND CHOICE -->
+        <div class="medium-6 xlarge-4 cell">
+          <h3>TRIP OPTION SECOND CHOICE</h3>
+          <label for="tripTwo">
+            <select id="tripTwo" name="tripTwo">
+              <option value="Misty Fjords Deluxe">Misty Fjords Deluxe</option>
+              <option value="Misty Fjords Basic">Misty Fjords Basic</option>
+              <option value="Misty Fjords Seaplane & Crab Feast">Misty Fjords Seaplane & Crab Feast</option>
+              <option value="Flightseeing & Crabfeast">Flightseeing & Crab Feast</option>
+              <option value="Dave's Choice">Dave's Choice</option>
+              <option value="Full Guided Fishing">Full Guided Fishing</option>
+              <option value="Mini Guided Fishing">Mini Guided Fishing</option>
+              <option value="Guided Bear Viewing">Guided Bear Viewing</option>
+              <option value="Road Based Fishing">Road Based Fishing</option>
+              <option value="Charter Flight">Charter Flight</option>
+              <option value="Lake Flight">Lake Trips</option>
+            </select>
+          </label>
+        </div>
+        <!-- ADD ONS -->
+        <div class="medium-6 xlarge-4 cell">
+          <h3>ADD-ONS</h3>
+          <label for="addons">
+            <select id="addons">
+              <option value="">Select Addon</option>
+              <option value="mistyaddon">Anan Wildlife Observatory Misty Addon</option>
+            </select>
+          </label>
+        </div>
+        <!-- ADULTS -->
+        <div class="medium-6 xlarge-4 cell">
+          <h3>ADULTS</h3>
+          <label for="numberOfAdults">
+            <select id="numberOfAdults" name="numberOfAdults">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+          </label>
+        </div>
+        <!-- CHILDREN -->
+        <div class="medium-6 xlarge-4 cell">
+          <h3>CHILDREN (3-12 years old)</h3>
+          <label for="numberOfChildren">
+            <select id="numberOfChildren" name="numberOfChildren">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </label>
+        </div>
+        <!-- PREFERRED TIME -->
+        <div class="medium-6 xlarge-4 cell">
+          <h3>PREFERRED TIME</h3>
+          <label for="time">
+            <select id="time" name="time">
+              <option value="Morning Flight">Morning</option>
+              <option value="Afternoon Flight">Afternoon</option>
+              <option value="Evening Flight">Early Evening</option>
+            </select>
+          </label>
+        </div>
+        <!-- ADULT PASSANGER INFORMATION -->
+        <div class="xlarge-4 cell">
+          <div class="grid-x reservation-form__adultinfo">
+            <div class="cell">
+              <h5>Adult Passenger (1) Information</h5>
+            </div>
+            <!-- ADULT PASSANGER 1 -->
+            <div class="medium-8 cell">
+              <label for="adultInfoOneName">
+                <input type="text" name="adultInfoOneName" id="adultInfoOneName" placeholder="Name">
+              </label>
+            </div>
+            <div class="medium-4 cell">
+              <label for="adultInfoOneWeight">
+                <input type="text" placeholder="Weight" id="adultInfoOneWeight" name="adultInfoOneWeight">
+              </label>
+            </div>
+            <!-- ADULT PASSANGER 2 -->
+            <div class="cell">
+              <h5>Adult Passenger (2) Information</h5>
+            </div>
+            <div class="medium-8 cell">
+              <label for="adultInfoTwoName">
+                <input type="text" placeholder="Name" id="adultInfoTwoName" name="adultInfoTwoName">
+              </label>
+            </div>
+            <div class="medium-4 cell">
+              <label for="adultInfoTwoWeight">
+                <input type="text" placeholder="Weight" id="adultInfoTwoWeight" name="adultInfoTwoWeight">
+              </label>
+            </div>
+            <!-- ADULT PASSENGER 3 -->
+            <div class="cell">
+              <h5>Adult Passenger (3) Information</h5>
+            </div>
+            <div class="medium-8 cell">
+              <label for="adultInfoThreeName">
+                <input type="text" placeholder="Name" id="adultInfoThreeName" name="adultInfoThreeName">
+              </label>
+            </div>
+            <div class="medium-4 cell">
+              <label for="adultInfoThreeWeight">
+                <input type="text" placeholder="Weight" id="adultInfoThreeWeight" name="adultInfoThreeWeight">
+              </label>
+            </div>
+            <!-- ADULT PASSANGER 4 -->
+            <div class="cell">
+              <h5>Adult Passenger (4) Information</h5>
+            </div>
+            <div class="medium-8 cell">
+              <label for="adultInfoFourName">
+                <input type="text" placeholder="Name" id="adultInfoFourName" name="adultInfoFourName">
+              </label>
+            </div>
+            <div class="medium-4 cell">
+              <label for="adultInfoFourWeight">
+                <input type="text" placeholder="Weight" id="adultInfoFourWeight" name="adultInfoFourWeight">
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- CHILD PASSANGER INFO -->
+        <div class="medium-6 xlarge-4 cell">
+          <div class="grid-x reservation-form__childinfo">
+            <div class="cell">
+              <h5>Child Passenger (1) Information</h5>
+            </div>
+            <!-- CHILD PASSANGER 1 -->
+            <div class="medium-8 cell">
+              <label for="childInfoOneName">
+                <input type="text" placeholder="Name" id="childInfoOneName" name="childInfoOneName">
+              </label>
+            </div>
+            <div class="medium-2 cell">
+              <label for="childInfoOneWeight">
+                <input type="text" placeholder="Weight" id="childInfoOneWeight" name="childInfoOneWeight">
+              </label>
+            </div>
+            <div class="medium-2 cell">
+              <label for="childInfoOneAge">
+                <input type="text" placeholder="Age" id="childInfoOneAge" name="childInfoOneAge">
+              </label>
+            </div>
+
+            <!-- CHILD PASSANGER 2 -->
+            <div class="cell">
+              <h5>Child Passenger (2) Information</h5>
+            </div>
+            <div class="medium-8 cell">
+              <label for="childInfoTwoName">
+                <input type="text" placeholder="Name" id="childInfoTwoName" name="childInfoTwoName">
+              </label>
+            </div>
+            <div class="medium-2 cell">
+              <label for="childInfoTwoWeight">
+                <input type="text" placeholder="Weight" id="childInfoTwoWeight" name="childInfoTwoWeight">
+              </label>
+            </div>
+            <div class="medium-2 cell">
+              <label for="childInfoTwoAge">
+                <input type="text" placeholder="Age" id="childInfoTwoAge" name="childInfoTwoAge">
+              </label>
+            </div>
+            <!-- CHILD PASSANGER 3 -->
+            <div class="cell">
+              <h5>Child Passenger (3) Information</h5>
+            </div>
+            <div class="medium-8 cell">
+              <label for="childInfoThreeName">
+                <input type="text" placeholder="Name" id="childInfoThreeName" name="childInfoThreeName">
+              </label>
+            </div>
+            <div class="medium-2 cell">
+              <label for="childInfoThreeWeight">
+                <input type="text" placeholder="Weight" id="childInfoThreeWeight" name="childInfoThreeWeight">
+              </label>
+            </div>
+            <div class="medium-2 cell">
+              <label for="childInfoThreeAge">
+                <input type="text" placeholder="Age" id="childInfoThreeAge" name="childInfoThreeAge">
+              </label>
+            </div>
+            <div class="cell hide-for-xlarge">
+              <h5 class="please-note">PLEASE NOTE: All prices are in U.S. Dollars.</h5>
+            </div>
+          </div>
+        </div>
+        <!-- ADULT PRIMARY CONTACT INFO -->
+        <div class="medium-6 xlarge-4 cell">
+          <div class="grid-x reservation-form__contactinfo">
+            <div class="cell">
+              <h5>Adult Passenger Primary Contact Information</h5>
+            </div>
+            <div class="cell">
+              <label for="adultPrimaryContactName">
+                <input type="text" placeholder="Name*" id="adultPrimaryContactName" name="adultPrimaryContactName">
+              </label>
+            </div>
+            <div class="cell">
+              <label for="adultPrimaryEmail">
+                <input type="email" placeholder="Email*" id="adultPrimaryEmail" name="adultPrimaryEmail">
+              </label>
+            </div>
+            <div class="cell">
+              <label for="adultPrimaryPhone">
+                <input type="text" placeholder="Phone*" id="adultPrimaryPhone" name="adultPrimaryPhone">
+              </label>
+            </div>
+            <div class="cell">
+              <label for="adultPrimaryAddress">
+                <input type="text" placeholder="Address*" id="adultPrimaryAddress" name="adultPrimaryAddress">
+              </label>
+            </div>
+            <div class="cell show-for-xlarge">
+              <h5>PLEASE NOTE: All prices are in U.S. Dollars.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="medium-6 cell">
+          <div class="medium-12 cell date-request">
+            <h5>Date Request & Cruise Ship Information</h5>
+          </div>
+          <div class=" cell fly-date">
+          <label for="flyDate">
+              <input type="text" placeholder="Date Request" id="flyDate" name="flyDate">
+            </label>
+          </div>
+          <div class="cell cruise-ship">
+            <label for="cruiseShip">
+              <input type="text" placeholder="Cruise Ship Information" id="cruiseShip" name="cruiseShip">
+            </label>
+          </div>
+        </div>
+        <div class="medium-6 cell message">
+          <h5>Additional Questions or Comments</h5>
+          <label for="message">
+           <textarea class="form-control" id="message" name="message" rows="10" placeholder="Enter your email message"></textarea>
+          </label>
+        </div>
+      </div>
+      <div class="grid-x reservation-form__creditcard">
+        <div class="cell">
+          <h5>CREDIT CARD INFORMATION</h5>
+          <h5>This form is secure. Discounted tours require 100% payment at time of booking. All other tours and charters require a 50% deposit at time of booking with the rest of the payment due the day of the tour. </h5>
+          <p><strong>We accept Visa, Mastercard and Discover. We do not accept American Express at this time.</strong></p>
+        </div>
+        <div class="xlarge-4 cell">
+          <h4>Credit Card Number</h4>
+          <label for="creditCardNumber">
+            <input type="text" class="credit-card" placeholder="Credit Card Number" id="creditCardNumber" name="creditCardNumber">
+          </label>
+        </div>
+        <div class="medium-4 xlarge-3 cell">
+          <h4>CVV</h4>
+          <label for="CVV">
+            <input type="text" class="cvv" placeholder="CVV (3-4 Digit Number)" id="CVV" name="CVV">
+          </label>
+        </div>
+        <div class="medium-4 xlarge-2 cell">
+          <h4>Expiration Date</h4>
+          <label for="expirationDate">
+            <input type="text" class="expiration-date" placeholder="00/00" id="expirationDate" name="expirationDate">
+          </label>
+        </div>
+        <div class="medium-2 xlarge-3 recap cell">
+          <div class="g-recaptcha" data-sitekey="6Lc6I1UUAAAAAN_ohIYOKqg6FTvo8ycZG0J88eb_"></div>
+        </div>
+      </div>
+      <div class="grid-x reservation-form__buttons">
+        <div class="cell medium-3 medium-offset-2 xlarge-2 xlarge-offset-4">
+          <input type="reset" name="reset" value="RESET" class="button reset">
+        </div>
+        <div class="cell medium-3 medium-offset-2 xlarge-2 xlarge-offset-1">
+          <button type="submit" class="button submit">SUBMIT</button>
+        </div>
+      </div>
+    </div>
+    <div id="formresult">
+
+  </div>
+  </form>
+</section>
+
+<div class="container thankyou-family">
+  <div class="cell">
+    <h2>Thank you for Choosing Family Air!</h2>
+  </div>
+</div>
+
+<section class="reservations-policies">
+<div class="grid-container fluid">
+  <div class="grid-x">
+    <div class="cell">
+      <h5>CONFIRMATIONS</h5>
+      <p>Confirmation of your booking and pick up instructions will be emailed to you within 48 hours to confirm a booking. If there are problems with the booking or a trip is not available we will contact you to discuss alternatives.</p>
+    </div>
+    <div class="cell">
+      <h5>CANCELLATIONS</h5>
+      <p>Tours may be canceled up to 24 hrs prior to flight time. If you do not cancel your booking 24 hours prior to your trip you will be charged the full price of the trip. This fee does not apply to charters that are delayed/cancelled due to circumstances beyond your control, ie., cruise ship delays, airline snafus, weather. Please see our full <a href="cancellation.html" style="color: #6c3030"><strong>Cancellation Policy.</strong></a></p>
+    </div>
+  </div>
+</div>
+</section>

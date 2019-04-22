@@ -1,0 +1,169 @@
+
+@font-face {
+  font-family: "Amithen";
+  src:url("../fonts/Amithen.otf");
+  src:url('../fonts/Amithen.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$proxima: "proxima-nova";
+$amithen: "Amithen";
+
+
+@mixin tabletland {
+    @media (min-width: #{$tablet}) and (max-width: #{$desktop}) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+        @content;
+    }
+}
+
+@mixin tabletport {
+    @media (min-width: #{$tablet}) and (max-width: #{$desktop}) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+        @content;
+    }
+}
+
+@mixin mobileland {
+    @media (max-width: #{$mobile}) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+        @content;
+    }
+}
+
+@mixin mobileport {
+    @media (max-width: #{$mobile}) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+        @content;
+    }
+}
+
+$desktop: 1200px;
+$laptop: 992px;
+$tablet: 750px;
+$mobile: 740px;
+
+.mobile-up {
+  @include breakpoint(medium up) {
+    display: flex;
+  }
+  @include breakpoint(small only) {
+    display: none;
+  }
+}
+
+.mobile {
+  @include breakpoint(medium up) {
+    display: none;
+  }
+  @include breakpoint(small only) {
+    display: flex;
+  }
+}
+
+.site-container {
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: $proxima;
+}
+
+h2, h6, p {
+  font-weight: 400;
+}
+
+
+// Color Variables
+
+$primary: #dedede;
+$white: #fff;
+$secondary: #6c3030;
+$textcolor: rgba(0, 0, 0, 0.8);
+
+
+h1 {
+  font-style: normal;
+  letter-spacing: 0.331rem;
+  font-size: 2.93rem;
+  @include breakpoint(large down) {
+    font-size: 2.5rem;
+  }
+  @include tabletland {
+    font-size: 2.8rem;
+  }
+  @include tabletport {
+    font-size: 2rem;
+  }
+  span {
+    font-weight: 800;
+  }
+}
+
+h2 {
+font-size: 1.5rem;
+letter-spacing: 0.026rem;
+@include breakpoint(large down) {
+  font-size: 1.3rem;
+}
+}
+
+h6 {
+  font-size: 0.75rem;
+  letter-spacing: 0.026rem;
+  line-height: 1rem;
+  color: $white;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+p {
+  font-size: 1.75rem;
+  letter-spacing: 0.026rem;
+  @include breakpoint(xlarge down) {
+    font-size: 1.5rem;
+  }
+  @include breakpoint(large down) {
+    font-size: 1.2rem;
+  }
+}
+
+.makeup {
+  text-decoration: line-through;
+  color: #6c3030;
+}
+
+.modal-links {
+  a {
+    color: black;
+    padding: 0 50px;
+    @include breakpoint(medium down) {
+      padding: 0 18px;
+
+    }
+    &:hover {
+      color: #6c3030;
+    }
+  }
+}
+
+
+// Equipment Link
+
+.equipment-rentals {
+  color: red;
+  &:hover {
+    color: #84916c;
+  }
+}
+
+i {
+  border: solid white;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 15px;
+  margin-top: -1rem;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}

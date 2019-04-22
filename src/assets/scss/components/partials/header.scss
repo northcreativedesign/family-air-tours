@@ -1,0 +1,241 @@
+
+.topbar-center-logo {
+  background-color: transparent;
+  @include breakpoint(small down) {
+    background-color: black;
+  }
+  position: relative;
+  .menu {
+    background-color: transparent;
+    a {
+      color: $white;
+      font-family: $proxima;
+      font-size: 1.25rem;
+      font-weight: 500;
+      letter-spacing: 0.125rem;
+      text-transform: uppercase;
+      &:hover {
+        color: #6c3030;
+      }
+      @include breakpoint(large down) {
+        font-size: 1rem;
+        padding: 0;
+      }
+      @include breakpoint(lmedium down) {
+        padding: 0;
+        font-size: 0.8rem;
+      }
+      @include tabletland {
+        font-size: 0.9rem;
+        padding: 0;
+        text-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.59);
+      }
+      @include tabletport {
+        font-size: 1rem;
+        padding: 0;
+        line-height: 1.6;
+        text-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.59);
+      }
+      @include breakpoint(small only) {
+          padding: 0.7rem 0.3rem;
+      }
+    }
+  }
+}
+
+.navigation {
+
+    p {
+      font-size: 1.25rem;
+      font-family: $proxima;
+      font-weight: 700;
+      letter-spacing: 0.063rem;
+      color: white;
+      margin-left: 1.8rem;
+      span {
+        &:nth-child(2) {
+          font-weight: 500;
+          letter-spacing: 0.063rem;
+        }
+      }
+      .fly-family {
+          font-family: $amithen;
+          font-size: 1.5rem;
+          font-weight: 400;
+          letter-spacing: 0.06rem;
+          @include breakpoint(large down) {
+            font-size: 1.3rem;
+          }
+      }
+      @include breakpoint(large down) {
+        font-size: 1.15rem;
+      }
+      @include breakpoint(lmedium down) {
+        margin-left: 0.8rem;
+        margin-top: 10px;
+        font-size: 1rem;
+      }
+      @include mobileland {
+        margin-left: 10px;
+      }
+      @include mobileport {
+        margin-left: 0;
+        font-size: 0.8rem;
+      }
+    }
+
+  &__home {
+    &:hover {
+      &:after {
+        color: white;
+      }
+    }
+    &:after {
+      content: "/";
+      padding-left: 20px;
+
+      @include breakpoint(large down) {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      @include breakpoint(lmedium down) {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      @include tabletland {
+        padding-left: 2.5px;
+        padding-right: 2.5px;
+      }
+      @include mobileland {
+        display: none;
+      }
+      @include mobileport {
+        display: none;
+      }
+    }
+  }
+
+  &__tour {
+    &:hover {
+      &:after {
+        color: white;
+      }
+    }
+    &:after {
+      content: "/";
+      padding-left: 20px;
+      @include breakpoint(large down) {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      @include breakpoint(lmedium down) {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      @include tabletland {
+        padding-left: 2.5px;
+        padding-right: 2.5px;
+      }
+      @include mobileland {
+        display: none;
+      }
+      @include mobileport {
+        display: none;
+      }
+    }
+  }
+
+  &__laketrips {
+    &:hover {
+      &:after {
+        color: white;
+      }
+    }
+    &:after {
+      content: "/";
+      padding-left: 20px;
+      @include breakpoint(large down) {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      @include breakpoint(lmedium down) {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      @include tabletland {
+        padding-left: 2.5px;
+        padding-right: 2.5px;
+      }
+      @include mobileland {
+        display: none;
+      }
+      @include mobileport {
+        display: none;
+      }
+    }
+  }
+
+  &__charter {
+    &:hover {
+      &:after {
+        color: white;
+      }
+    }
+    &:after {
+      content: "/";
+      padding-left: 20px;
+      @include breakpoint(large down) {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      @include breakpoint(lmedium down) {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      @include tabletland {
+        padding-left: 2.5px;
+        padding-right: 2.5px;
+      }
+      @include mobileland {
+        display: none;
+      }
+      @include mobileport {
+        display: none;
+      }
+    }
+  }
+
+  .top-bar-left {
+    @include breakpoint(xlarge down) {
+      width: 30%;
+    }
+    @include breakpoint(large down) {
+      width: 41%
+    }
+    @include tabletland {
+      width: 5%;
+      a {
+        padding: 0;
+      }
+    }
+  }
+  .top-bar-right {
+    ul {
+      @include breakpoint(large down) {
+        padding-left: 10%;
+      }
+      @include breakpoint(lmedium down) {
+        padding-left: 0;
+      }
+      @include tabletland {
+        padding-left: 0;
+      }
+      @include mobileland {
+        padding-left: 0;
+      }
+      @include mobileport {
+        padding-left: 0;
+      }
+    }
+  }
+}

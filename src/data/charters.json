@@ -1,0 +1,194 @@
+{
+  "charterslist": [
+    {
+      "destination": "Angoon",
+      "time": "96 min",
+      "price": "$1712.00"
+    },
+    {
+      "destination": "Bell Island",
+      "time": "24 min",
+      "price": "$428.00"
+    },
+    {
+      "destination": "Burnett Inlet",
+      "time": "30 min",
+      "price": "$535.00"
+    },
+    {
+      "destination": "Craig",
+      "time": "36 min",
+      "price": "$642.00"
+    },
+    {
+      "destination": "Coco Harbor",
+      "time": "36 min",
+      "price": "$642.00"
+    },
+    {
+      "destination": "Coffman Cove",
+      "time": "36 min",
+      "price": "$642.00"
+    },
+    {
+      "destination": "Edna Bay",
+      "time": "42 min",
+      "price": "$749.00"
+    },
+    {
+      "destination": "Hollis",
+      "time": "24 min",
+      "price": "$428.00"
+    },
+    {
+      "destination": "Hydaburg",
+      "time": "30 min",
+      "price": "$535.00"
+    },
+    {
+      "destination": "Hoonah",
+      "time": "102 min",
+      "price": "$1,819.00"
+    },
+    {
+      "destination": "Hyder (short way)",
+      "time": "42 min",
+      "price": "$749.00"
+    },
+    {
+      "destination": "Hyder (long way)",
+      "time": "84 min",
+      "price": "$1,498.00"
+    },
+    {
+      "destination": "Juneau",
+      "time": "120 min",
+      "price": "$2,140.00"
+    },
+    {
+      "destination": "Kasaan",
+      "time": "24 min",
+      "price": "$428.00"
+    },
+    {
+      "destination": "Kake",
+      "time": "78 min",
+      "price": "$1,391.00"
+    },
+    {
+      "destination": "Lab Bay",
+      "time": "48 min",
+      "price": "$856.00"
+    },
+    {
+      "destination": "Lancaster",
+      "time": "12 min",
+      "price": "$214.00"
+    },
+    {
+      "destination": "Long Island",
+      "time": "36 min",
+      "price": "$642.00"
+    },
+    {
+      "destination": "Loring",
+      "time": "18 min",
+      "price": "$321.00"
+    },
+    {
+      "destination": "Metlakatla",
+      "time": "12 min",
+      "price": "$214.00"
+    },
+    {
+      "destination": "Meyers Chuck",
+      "time": "24 min",
+      "price": "$428.00"
+    },
+    {
+      "destination": "Naukati",
+      "time": "36 min",
+      "price": "$642.00"
+    },
+    {
+      "destination": "Neets Bay",
+      "time": "18 min",
+      "price": "$321.00"
+    },
+    {
+      "destination": "Nutkwa",
+      "time": "36 min",
+      "price": "$535.00"
+    },
+    {
+      "destination": "Pelican",
+      "time": "138 min",
+      "price": "$2,461.00"
+    },
+    {
+      "destination": "Point Baker",
+      "time": "54 min",
+      "price": "$963.00"
+    },
+    {
+      "destination": "Port Protection",
+      "time": "54 min",
+      "price": "$963.00"
+    },
+    {
+      "destination": "Port Alexander",
+      "time": "78 min",
+      "price": "$1,391.00"
+    },
+    {
+      "destination": "Petersburg",
+      "time": "60 min",
+      "price": "$1,070.00"
+    },
+    {
+      "destination": "Sitka",
+      "time": "108 min",
+      "price": "$1,926.00"
+    },
+    {
+      "destination": "Shelter Cove",
+      "time": "18 min",
+      "price": "$321.00"
+    },
+    {
+      "destination": "Shoal Cove",
+      "time": "12 min",
+      "price": "$214.00"
+    },
+    {
+      "destination": "Soda Bay",
+      "time": "30 min",
+      "price": "$535.00"
+    },
+    {
+      "destination": "Swan Lake",
+      "time": "18 min",
+      "price": "$321.00"
+    },
+    {
+      "destination": "Tenakee",
+      "time": "102 min",
+      "price": "$1,819.00"
+    },
+    {
+      "destination": "Thorne Bay",
+      "time": "24 min",
+      "price": "$428.00"
+    },
+    {
+      "destination": "Whale Pass",
+      "time": "42 min",
+      "price": "$749.00"
+    },
+    {
+      "destination": "Wrangell",
+      "time": "48 min",
+      "price": "$856.00"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Family Air in Ketchikan, Alaska offers some of the most spectacular flightseeing tours, guided fishing tours, air charters, camping at a wilderness lake and bear watching in Southeast Alaska.">
+    <title>{{title}}</title>
+    <link rel="icon" type="image/png" href="{{root}}assets/img/favicon.png">
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
+        <!-- Facebook Meta Cards -->
+    <meta property="og:image" content="http://www.familyairtours.com/assets/img/fb_image1.jpg">
+    <meta property="og:image" content="http://www.familyairtours.com/assets/img/fb_image2.jpg">
+    <meta property="og:image" content="http://www.familyairtours.com/assets/img/fb_image3.jpg">
+    <meta property="og:site_name" content="Family Air Tours | Ketchikan AK | Fly With Us Fly Like Family">
+    <meta property="og:description" content="Family Air in Ketchikan, Alaska offers some of the most spectacular flightseeing tours, guided fishing tours, air charters, camping at a wilderness lake and bear watching in Southeast Alaska.">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-80534401-11"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-80534401-11');
+    </script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+  </head>
+  <body>
+    <div class="site-container">
+    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+    {{> navigation}}
+    {{> body}}
+    {{> footer}}
+    <script src="{{root}}assets/js/app.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+
+          $('#contactform').submit(function(event) {
+              event.preventDefault();
+
+              var contactform = $('#contactform');
+              var formresult = $('#formresult');
+              var formdata = $(contactform).serialize();
+
+              $.ajax({
+                  type: 'POST',
+                  url: $(contactform).attr('action'),
+                  data: formdata,
+
+                  beforeSend: function() {
+                      $(formresult).removeClass();
+                      $(formresult).addClass('alert alert-info');
+                      $(formresult).html("<span class='glyphicon glyphicon-refresh gly-spin' aria-hidden='true'></span>");
+                  },
+                  success:function(response) {
+                      $(formresult).removeClass();
+                      $(formresult).addClass('alert alert-success');
+                      $(formresult).html(response);
+                  },
+                  error:function(data) {
+                      $(formresult).removeClass();
+                      $(formresult).addClass('alert alert-warning');
+                      $(formresult).html(data.responseText);
+                  }
+              });
+          });
+      });
+</script>
+</div>
+  </body>
+</html>

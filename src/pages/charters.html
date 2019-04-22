@@ -1,0 +1,89 @@
+---
+title: Family Air Tours | Ketchikan AK | Charter Flights
+header: CHARTERS
+sub: COMMONLY TRAVELED PLACES
+---
+
+<section id="charters-hero">
+  <div class="grid-container fluid">
+    <div class="grid-x">
+      <div class="cell medium-12">
+        <div class="hero">
+          <!-- Hero Header Section -->
+          <div class="grid-container">
+            <div class="grid-x">
+              <div class="cell medium-12">
+                <div class="white-box">
+                  <h1>CHARTERS</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-container">
+            <div class="grid-x">
+              <div class="small-12 cell down-arrow otherpages-arrow">
+                <h3>EXPLORE</h3>
+              <a href="#charters-header"><i class="arrow down"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="charters" id="charters-header">
+  <div class="grid-container fluid">
+    <div class="grid-x">
+      <div class="medium-1 cell">
+        <div class="charters__ver-bar"></div>
+      </div>
+      <div class="cell medium-10 charters__main-header">
+        <h1>{{header}}</h1>
+        <h2>{{sub}}</h2>
+      </div>
+      <div class="cell lmedium-2 reserve-now">
+        <a class="button charters__button" href="reservations.html">Reserve Now</a>
+      </div>
+    </div>
+    <div class="grid-x charters__description">
+      <div class="cell">
+        <p>Here are rates to some of the more commonly traveled places in Southeast Alaska. The flight times below are from Ketchikan to the destination, the rates include repositioning the aircraft back to Ketchikan. There is an 1/2 hour minimum on all charters.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="charter-list">
+  <div class="grid-container">
+    <div class="grid-x">
+      <div class="small-4 medium-4 cell">
+        <h4>DESTINATION</h4>
+      </div>
+      <div class="small-4 medium-4 cell">
+        <h4>FLIGHT TIME (ONE WAY)</h4>
+      </div>
+      <div class="small-4 medium-4 cell">
+        <h4>CHARTER PRICE</h4>
+        <h5>$535.00/Flight HR</h5>
+        <h5 class="flightprice">$250.00/Standby HR</h5>
+      </div>
+    </div>
+    {{#each charters.charterslist}}
+    <div class="grid-x">
+      <div class="cell small-4 medium-4">
+        <h5>{{destination}}</h5>
+      </div>
+      <div class="cell small-4 medium-4">
+        <h5>{{time}}</h5>
+      </div>
+      <div class="cell small-4 medium-4">
+        <h5>{{price}}</h5>
+      </div>
+    </div>
+    <hr>
+    {{/each}}
+  </div>
+</section>

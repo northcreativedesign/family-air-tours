@@ -1,0 +1,1215 @@
+
+// DOWN ARROW
+
+.down-arrow {
+ text-align: center;
+ color: white;
+ margin-top: -4rem;
+ h3 {
+   font-size: 1.5rem;
+   letter-spacing: 2px;
+ }
+@include breakpoint(small only) {
+  display: none;
+}
+}
+
+.otherpages-arrow {
+  padding-top: 30vh;
+}
+
+// MAIN PAGE HERO IMAGE
+#index-header-section {
+  .grid-container {
+    padding: 0;
+  }
+
+  .index-hero-img {
+    background-image: url("../img/index_hero.jpg");
+    background-size: cover;
+    height: 110vh;
+    margin-top: -176px;
+
+    @include tabletland {
+      margin-top: -200px;
+      height: 112vh;
+    }
+    @include tabletport {
+      margin-top: -205px;
+      height: 110vh;
+      background-position: center;
+    }
+    @include breakpoint(small only) {
+      margin-top: 0;
+    }
+  }
+
+  .logo {
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 35vh;
+    @include breakpoint(large down) {
+      width: 600px;
+    }
+    @include breakpoint(medium down) {
+      width: 400px;
+    }
+    @include mobileland {
+      margin-top: 10vh;
+    }
+  }
+
+  h1 {
+    margin-left: 50px;
+    @include breakpoint(medium down) {
+      font-size: 2rem;
+    }
+    @include breakpoint(small down) {
+      font-size: 1.3rem;
+      margin-left: 0;
+      text-align: center;
+    }
+    @include tabletland {
+      font-size: 2.5rem;
+      margin-left: 25px;
+    }
+    @include tabletport {
+      font-size: 1.5rem;
+    }
+    @include mobileland {
+      font-size: 1.5rem;
+    }
+  }
+
+  h1,
+  h2 {
+    color: $white;
+  }
+
+  h2 {
+    @include breakpoint(large down) {
+      padding-right: 7rem;
+    }
+    @include breakpoint(medium down) {
+      font-size: 1.2rem;
+      padding-right: 4rem;
+    }
+    @include breakpoint(small down) {
+      text-align: center;
+      padding-right: 0;
+      padding: 10px 1rem;
+    }
+    @include tabletland {
+      font-size: 1.2rem;
+      padding-left: 5px;
+    }
+    @include tabletport {
+      font-size: 1.3rem;
+    }
+  }
+
+  hr {
+    width: 11.75rem;
+    height: 0.313rem;
+    background-color: #d5995e;
+    border: none;
+    margin-top: 10px;
+    @include tabletland {
+      width: 11rem;
+    }
+    @include tabletport {
+      width: 8rem;
+    }
+  }
+
+  .social-icon {
+    // margin-top: 150px;
+    margin-top: 200px;
+    padding-left: 4rem;
+
+    @include tabletland {
+      margin-top: 30px;
+      padding-left: 1.8rem;
+    }
+
+    @include mobileland {
+      padding-left: 1.4rem;
+      margin-top: 0px;
+      img {
+        display: block;
+        margin: 0 4rem;
+      }
+    }
+
+    @include mobileport {
+      margin-top: 25px;
+    }
+
+    .fb-icon {
+      padding-bottom: 1.56rem;
+      padding-left: 0.55rem;
+    }
+
+    .insta-icon {
+      padding-bottom: 1.56rem;
+      padding-left: 0.45rem;
+      @include mobileland {
+        position: relative;
+        left: 25px;
+      }
+    }
+    .trip-icon {
+      @include mobileland {
+        position: relative;
+        left: 50px;
+        top: 4px;
+      }
+    }
+  }
+}
+// END HERO SECTION
+
+// FAMILY HEADER SECTION
+#family-header-section {
+  background-color: $primary;
+
+  .grid-container {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 80rem;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 90px;
+    color: $secondary;
+  }
+
+  p {
+    margin-top: 45px;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: $textcolor;
+
+    @include breakpoint(large down) {
+      font-size: 1.5rem;
+      padding: 0 20px;
+    }
+    @include breakpoint(small only) {
+      font-size: 1.2rem;
+    }
+
+    &:last-child {
+      font-style: italic;
+      font-weight: 500;
+      margin-bottom: 90px;
+    }
+  }
+}
+// END FAMILY HEADER SECTION
+
+// DESIRED TOURS SECTION
+.desired-tours {
+  margin-top: 90px;
+
+
+  .grid-container {
+    max-width: 114rem;
+  }
+
+  // MAIN DESIRED TOURS HEADER H1
+  &__main-header {
+    h1 {
+      text-align: center;
+      color: $secondary;
+      margin-bottom: 60px;
+    }
+  }
+
+  &__fjords {
+    height: 48.75rem;
+    margin-right: 8px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(85, 77, 77, 0.32) 70%, #52534d 100%), url("../img/fjords_desired.jpg");
+    background-position: center;
+    background-size: cover;
+
+    @include breakpoint(large down) {
+        margin-right: 0;
+    }
+
+
+    .grid-padding-y {
+      .lower-header {
+        padding-top: 2.8rem;
+
+      }
+    }
+
+    .time-section {
+      padding-top: 10px;
+
+      .medium-1 {
+        width: 6%;
+        @include mobileport {
+          width: 10%;
+        }
+      }
+
+      h4 {
+        color: white;
+        font-size: 2.063rem;
+        font-weight: 600;
+        letter-spacing: 0.206rem;
+        margin-top: -3px;
+        @include breakpoint(medium down) {
+          padding-left: 10px;
+        }
+      }
+    }
+
+    .fjord-header {
+      padding-left: 30px;
+      @include breakpoint(large down) {
+        margin-top: 0;
+      }
+      @include breakpoint(small only) {
+        padding-left: 10px;
+      }
+    }
+
+    .vert-bar {
+      width: 0.375rem;
+      height: 7rem;
+      background-color: #467588;
+      margin-top: 0.6rem;
+      @include breakpoint(small only) {
+        height: 8rem;
+      }
+      @include mobileland {
+        height: 7rem;
+      }
+    }
+
+    h1 {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 2.9rem;
+      font-weight: 900;
+      letter-spacing: 0.046rem;
+      text-transform: uppercase;
+      padding-left: 12px;
+      @include breakpoint(xlarge down) {
+        font-size: 2.3rem
+      }
+      @include breakpoint(medium down) {
+        font-size: 2rem;
+      }
+      @include breakpoint(small only) {
+        font-size: 1.7rem;
+        line-height: 1.1;
+      }
+      @include mobileland {
+        font-size: 2rem;
+      }
+    }
+
+    h5 {
+
+      padding-left: 14px;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 1.875rem;
+      font-weight: 700;
+      letter-spacing: 0.188rem;
+      text-transform: uppercase;
+      position: relative;
+      top: -25px;
+      @include breakpoint(medium down) {
+        left: -3px;
+        top: -20px;
+      }
+      @include breakpoint(small only) {
+        top: -15px;
+      }
+      @include mobileland {
+        top: -12.5px;
+      }
+    }
+
+    .buttons-grid {
+      .reserve-now {
+        padding-left: 2%;
+        margin-top: -3%;
+        @include breakpoint(medium down) {
+          margin-top: -4%;
+        }
+        @include breakpoint(small only) {
+          margin-top: -8%;
+          padding-left: 5%;
+        }
+        @include mobileland {
+          margin-top: -4.2%;
+          padding-left: 3%;
+        }
+      }
+
+
+      .discover-more {
+        margin-top: -3%;
+        padding-left: 6.5%;
+        @include breakpoint(large down) {
+          padding-left: 13%;
+        }
+        @include breakpoint(medium down) {
+          padding-left: 5%;
+          margin-top: -4%
+        }
+        @include breakpoint(small only) {
+          margin-top: -8%;
+        }
+        @include mobileland {
+          margin-top: -4.2%;
+          padding-left: 15%;
+        }
+      }
+    }
+
+    .small-offset-1 {
+      @include mobileport {
+        margin-left: 0;
+      }
+    }
+
+    .reserve-button {
+      width: 11.813rem;
+      height: 1.813rem;
+      box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.43);
+      background-color: #00384f;
+      opacity: 0.8;
+      color: rgba(255, 255, 255, 0.8);
+      font-family: $proxima;
+      font-size: 1.125rem;
+      font-weight: 700;
+      letter-spacing: 0.113rem;
+      text-transform: uppercase;
+      padding: 5px 0;
+      @include breakpoint(small only) {
+        width: 10rem;
+        font-size: 0.925rem;
+      }
+    }
+
+    .discover-button {
+      width: 11.813rem;
+      height: 1.813rem;
+      box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.16);
+      background-color: #467588;
+      opacity: 0.8;
+      color: rgba(255, 255, 255, 0.8);
+      font-family: $proxima;
+      font-size: 1.125rem;
+      font-weight: 700;
+      letter-spacing: 0.113rem;
+      text-transform: uppercase;
+      padding: 5px 0;
+      @include breakpoint(small only) {
+        width: 10rem;
+        font-size: 0.925rem;
+      }
+    }
+  }
+
+  &__fishing {
+    height: 24.125rem;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(85, 77, 77, 0.32) 65%, #52534d 100%), url("../img/fishing_desired.jpg");
+    background-position: center;
+    background-size: cover;
+
+    @include breakpoint(large down) {
+      margin-top: 10px;
+      margin-right: 5px;
+    }
+    @include tabletport {
+      margin-right: 0;
+    }
+    @include breakpoint(small only) {
+      margin-right: 0;
+    }
+
+    .time-section {
+      padding-top: 10px;
+
+      img {
+        margin-left: 21px;
+        @include tabletland {
+          margin-left: 11px;
+          padding-top: 6px;
+        }
+        @include mobileland {
+          margin-left: 11px;
+        }
+        @include mobileport {
+          margin-left: 11px;
+        }
+      }
+      .small-1 {
+        width: 6%;
+        @include mobileport {
+          width: 10%;
+        }
+      }
+      .small-9 {
+        @include breakpoint(large down) {
+          padding-left: 15px;
+        }
+        @include breakpoint(medium down) {
+          padding-left: 10px;
+        }
+        @include mobileport {
+          padding-left: 10px;
+        }
+      }
+      h4 {
+        color: white;
+        font-size: 2.063rem;
+        font-weight: 600;
+        letter-spacing: 0.206rem;
+        margin-top: -2px;
+        padding-left: 1rem;
+      }
+    }
+
+    .fishing-header {
+      padding-left: 20px;
+      @include breakpoint(small only) {
+        padding-left: 5px;
+      }
+    }
+
+    .vert-bar {
+      width: 0.375rem;
+      height: 7rem;
+      background-color: #d5995e;
+      margin-top: 12px;
+      @include breakpoint(large down) {
+        margin-left: 2%;
+      }
+    }
+
+    h1 {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 3.063rem;
+      font-weight: 900;
+      letter-spacing: 0.046rem;
+      text-transform: uppercase;
+      padding-left: 15px;
+      @include breakpoint(xlarge down) {
+        font-size: 2.3rem
+      }
+      @include tabletland {
+        font-size: 2rem;
+        margin-top: 5px;
+      }
+      @include tabletport {
+        margin-top: 5px;
+      }
+      @include breakpoint(small only) {
+        font-size: 1.7rem;
+        line-height: 1.1;
+      }
+      @include mobileland {
+        font-size: 2rem;
+      }
+    }
+
+    h5 {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 1.875rem;
+      font-weight: 700;
+      letter-spacing: 0.188rem;
+      text-transform: uppercase;
+      padding-left: 15px;
+      position: relative;
+      top: -25px;
+      @include breakpoint(small only) {
+        top: -15px;
+      }
+      @include mobileland {
+        top: -12.5px;
+      }
+    }
+
+    .buttons-grid {
+      .reserve-now {
+        padding-left: 45px;
+        margin-top: -4.1%;
+        @include breakpoint(large down) {
+          padding-left: 1%;
+          margin-top: -5.1%;
+        }
+        @include tabletland {
+          margin-top: -6%;
+        }
+        @include tabletport {
+          margin-left: 3rem;
+        }
+        @include breakpoint(small only) {
+          margin-top: -8%;
+          padding-left: 0;
+        }
+        @include mobileland {
+          margin-top: -4.2%;
+        }
+      }
+
+      .discover-more {
+        margin-top: -4.1%;
+        @include breakpoint(large down) {
+          padding-left: 8%;
+          margin-top: -5.1%;
+        }
+        @include tabletland {
+          margin-top: -6%;
+        }
+        @include tabletport {
+          padding-left: 24%;
+        }
+        @include breakpoint(small only) {
+          margin-top: -8%;
+        }
+        @include mobileland {
+          margin-top: -4.2%;
+          padding-left: 18%;
+        }
+      }
+    }
+
+    .small-offset-1 {
+      @include mobileland {
+        margin-left: 6%;
+      }
+    }
+
+    .small-offset-3 {
+      @include mobileport {
+        margin-left: 15%;
+      }
+    }
+
+    .reserve-button {
+      width: 11.813rem;
+      height: 1.813rem;
+      box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.43);
+      background-color: #9d6230;
+      opacity: 0.8;
+      color: rgba(255, 255, 255, 0.8);
+      font-family: $proxima;
+      font-size: 1.125rem;
+      font-weight: 700;
+      letter-spacing: 0.113rem;
+      text-transform: uppercase;
+      padding: 5px 0;
+      @include breakpoint(small only) {
+        width: 10rem;
+        font-size: 0.925rem;
+      }
+    }
+
+    .discover-button {
+      width: 11.813rem;
+      height: 1.813rem;
+      box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.16);
+      background-color: #d5995e;
+      opacity: 0.8;
+      color: rgba(255, 255, 255, 0.8);
+      font-family: $proxima;
+      font-size: 1.125rem;
+      font-weight: 700;
+      letter-spacing: 0.113rem;
+      text-transform: uppercase;
+      padding: 5px 0;
+      @include breakpoint(small only) {
+        width: 10rem;
+        font-size: 0.925rem;
+      }
+    }
+  }
+
+  &__bears {
+    margin-top: 8px;
+    height: 24.125rem;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(85, 77, 77, 0.32) 65%, #52534d 100%), url("../img/bears_desired.jpg");
+    background-position: center;
+    background-size: cover;
+
+    @include breakpoint(large down) {
+      margin-top: 10px;
+      margin-left: 5px;
+    }
+
+    @include tabletport {
+      margin-left: 0;
+    }
+    @include breakpoint(small only) {
+      margin-left: 0;
+    }
+
+  .medium-5 {
+    padding-top: 0.65rem;
+  }
+
+  .time-section {
+      padding-top: 10px;
+
+      img {
+        margin-left: 21px;
+        @include tabletland {
+          margin-left: 11px;
+          padding-top: 6px;
+        }
+        @include mobileland {
+          margin-left: 11px;
+        }
+        @include mobileport {
+          margin-left: 11px;
+        }
+      }
+      .small-1 {
+        width: 6%;
+        @include mobileport {
+          width: 10%;
+        }
+      }
+      .small-9 {
+        @include breakpoint(large down) {
+          padding-left: 15px;
+        }
+        @include breakpoint(medium down) {
+          padding-left: 10px
+        }
+        @include mobileport {
+          padding-left: 10px;
+        }
+      }
+
+      h4 {
+        color: white;
+        font-family: $proxima;
+        font-size: 2.063rem;
+        font-weight: 600;
+        letter-spacing: 0.206rem;
+        margin-top: -2px;
+        padding-left: 1rem;
+      }
+    }
+
+  .bear-header {
+      padding-left: 20px;
+      @include breakpoint(small only) {
+        padding-left: 5px;
+      }
+    }
+
+    .vert-bar {
+      width: 0.375rem;
+      height: 7rem;
+      background-color: #84916c;
+      margin-top: 12px;
+      @include breakpoint(large down) {
+        margin-left: 2%;
+      }
+    }
+
+    h1 {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 3.063rem;
+      font-weight: 900;
+      letter-spacing: 0.046rem;
+      text-transform: uppercase;
+      padding-left: 10px;
+      @include breakpoint(xlarge down) {
+        font-size: 2.3rem
+      }
+      @include tabletland {
+        font-size: 2rem;
+        margin-top: 5px;
+      }
+      @include breakpoint(small only) {
+        font-size: 1.7rem;
+        line-height: 1.1;
+      }
+      @include mobileland {
+        font-size: 2rem;
+      }
+    }
+
+    h5 {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 1.875rem;
+      font-weight: 700;
+      letter-spacing: 0.188rem;
+      text-transform: uppercase;
+      padding-left: 15px;
+      position: relative;
+      top: -25px;
+      @include tabletland {
+        padding-left: 12px;
+      }
+      @include breakpoint(small only) {
+        top: -12px;
+        font-size: 1.375rem;
+        padding-left: 11px;
+      }
+      @include mobileland {
+        top: -12.5px;
+        font-size: 1.875rem;
+      }
+    }
+
+    .buttons-grid {
+      .reserve-now {
+        padding-left: 5%;
+        margin-top: -4.1%;
+        @include breakpoint(large down) {
+          padding-left: 1%;
+          margin-top: -5.1%;
+        }
+        @include tabletland {
+          margin-top: -6%;
+        }
+        @include tabletport {
+          margin-left: 3rem;
+        }
+        @include breakpoint(small only) {
+          margin-top: -8%;
+          padding-left: 0;
+        }
+        @include mobileland {
+          margin-top: -4.2%;
+          padding-left: 3%;
+        }
+      }
+
+      .discover-more {
+        margin-top: -4.1%;
+        @include breakpoint(large down) {
+          padding-left: 8%;
+          margin-top: -5.1%;
+        }
+        @include tabletland {
+          margin-top: -6%;
+        }
+        @include tabletport {
+          padding-left: 24%;
+        }
+        @include breakpoint(small only) {
+          margin-top: -8%;
+        }
+        @include mobileland {
+          margin-top: -4.2%;
+          padding-left: 21%;
+        }
+      }
+    }
+
+    .small-offset-3 {
+      @include mobileport {
+        margin-left: 15%;
+      }
+    }
+
+    .small-offset-1 {
+      @include mobileland {
+        margin-left: 2%;
+      }
+    }
+
+
+    .reserve-button {
+      width: 11.813rem;
+      height: 1.813rem;
+      box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.43);
+      background-color: #407a61;
+      opacity: 0.8;
+      color: rgba(255, 255, 255, 0.8);
+      font-family: $proxima;
+      font-size: 1.125rem;
+      font-weight: 700;
+      letter-spacing: 0.113rem;
+      text-transform: uppercase;
+      padding: 5px 0;
+      @include breakpoint(small only) {
+        width: 10rem;
+        font-size: 0.925rem;
+      }
+    }
+
+    .discover-button {
+      width: 11.813rem;
+      height: 1.813rem;
+      box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.16);
+      background-color: #84916c;
+      opacity: 0.8;
+      color: rgba(255, 255, 255, 0.8);
+      font-family: $proxima;
+      font-size: 1.125rem;
+      font-weight: 700;
+      letter-spacing: 0.113rem;
+      text-transform: uppercase;
+      padding: 5px 0;
+      @include breakpoint(small only) {
+        width: 10rem;
+        font-size: 0.925rem;
+      }
+    }
+  }
+}
+
+// MEET THE PLANE SECTION
+#plane-info-section {
+  margin-top: 60px;
+
+  .grid-container {
+    padding: 0;
+  }
+
+  .lmedium-7 {
+    width: 57.3%;
+  }
+
+  .lmedium-5 {
+    width: 42.7%;
+  }
+
+  .plane-information {
+    height: 40.375rem;
+    background-color: $primary;
+    padding-left: 4.25rem;
+    padding-right: 4.25rem;
+    @include breakpoint(large down) {
+      padding: 0 2rem;
+    }
+    @include breakpoint(small down landscape retina) {
+      height: auto;
+    }
+  }
+
+  .plane-image {
+    height: 40.375rem;
+    margin-left: 8px;
+    background-image: url("../img/family-air-plane.jpg");
+    background-size: cover;
+    background-position: center;
+    @include breakpoint(large down) {
+      background-position: right;
+    }
+    @include breakpoint(medium down) {
+      margin: 0;
+    }
+  }
+
+  h1 {
+    color: #643432;
+    margin-top: 100px;
+    @include breakpoint(medium down landscape retina) {
+      margin-top: 80px;
+    }
+    @include breakpoint(small down landscape retina) {
+      text-align: center;
+      margin-top: 40px;
+    }
+  }
+
+  p {
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 30px;
+    @include breakpoint(small down landscape retina) {
+      padding-bottom: 40px;
+    }
+    @include breakpoint(small only) {
+      text-align: center;
+    }
+  }
+  @include breakpoint(large down) {
+    .medium-7 {
+      width: 49.5%;
+    }
+    .medium-5 {
+      width: 50.5%;
+    }
+  }
+  @include breakpoint(medium down) {
+    .lmedium-7 {
+      width: 100%;
+      order: 2;
+    }
+    .lmedium-5 {
+      width: 100%;
+      order: 1;
+    }
+  }
+}
+// END PLANE SECTION
+
+// PILOT SECTION
+
+.pilot {
+  margin-top: 30px;
+
+  @include breakpoint(large down) {
+    margin-top: 60px;
+  }
+
+  .grid-container {
+    padding: 0;
+  }
+
+  .xlarge-7 {
+    padding-left: 0;
+    padding-right: 20px;
+    @include breakpoint(medium down) {
+      padding-right: 0;
+    }
+  }
+
+  &__image {
+    height: 47.375rem;
+    background-image: url("../img/dave_photo.jpg");
+    background-size: cover;
+    background-position: center;
+    @include breakpoint(xlarge down) {
+      height: 55.375rem;
+    }
+    @include breakpoint(large down) {
+        margin-top: 104px;
+        background-position: 600px 0;
+        height: 38rem;
+    }
+    @include breakpoint(medium down) {
+      background-position: center;
+    }
+    @include tabletland {
+      margin-top: 10px;
+      height: 40.3rem;
+    }
+    @include breakpoint(small only) {
+      background-position: 575px 0;
+    }
+    @include mobileland {
+      background-position: center;
+    }
+  }
+
+  &__medium-header {
+    display: block;
+    margin: 0 auto;
+    color: #643432;
+    @include breakpoint(lmedium up) {
+      display: none;
+    }
+    @include breakpoint(small only) {
+      text-align: center;
+    }
+  }
+
+  &__large-header {
+    display: none;
+    @include breakpoint(lmedium up) {
+      display: block;
+    }
+  }
+
+  &__text {
+    padding-right: 40px;
+
+    @include breakpoint(large down) {
+      padding: 0 2rem;
+    }
+    @include breakpoint(small only) {
+      padding: 0 1rem;
+    }
+
+    h1 {
+      color: #643432;
+      @include breakpoint(xlarge down) {
+        font-size: 2.7rem;
+      }
+      @include breakpoint(large down) {
+        text-align: center;
+      }
+      @include tabletland {
+        font-size: 2rem;
+      }
+
+    }
+
+    .pilot-text-display {
+      @include breakpoint(lmedium down) {
+        display: none;
+      }
+      @include breakpoint(large up) {
+        display: flex;
+      }
+    }
+
+    p {
+      color: rgba(0, 0, 0, 0.8);
+      font-family: $proxima;
+      font-size: 1.2rem;
+      font-weight: 400;
+      letter-spacing: 0.018rem;
+      @include breakpoint(large down) {
+        font-size: 1.2rem;
+        &:nth-child(2) {
+          padding-top: 30px;
+        }
+      }
+      @include tabletland {
+        &:nth-child(3) {
+          display: none;
+        }
+      }
+      @include breakpoint(small only) {
+        text-align: center;
+      }
+    }
+  }
+  // MODAL BUTTON STYLING
+  .read-more {
+    color: #6c3030;
+    font-family: $proxima;
+    font-size: 1.375rem;
+    font-weight: 400;
+    letter-spacing: 0.138rem;
+    text-transform: uppercase;
+    text-align: right;
+    @include mobileport {
+      font-size: 1rem;
+    }
+  }
+  .button {
+    background-color: transparent;
+    color: #6c3030;
+    &:hover {
+      background-color: transparent;
+      color: #d5995e;
+    }
+    .fa-arrow-right {
+      font-size: 1.5rem;
+      margin-top: 10px;
+      @include mobileport {
+        margin-top: 15px;
+      }
+    }
+  }
+}
+// MODAL BOX STYLING
+.modal-box {
+  p {
+    font-size: 1.1rem;
+  }
+
+  .alice-text {
+    color: #F56991;
+  }
+}
+// END PILOT SECTION
+
+// TESTIMONIAL SECTION
+
+#testimonial-section {
+  margin-top: 30px;
+
+  @include breakpoint(large down) {
+    margin-top: 10px;
+  }
+
+  .grid-container {
+    padding: 0;
+  }
+
+
+  .orbit-wrapper {
+    padding-top: 80px;
+    @include breakpoint(large down) {
+      padding-top: 10px;
+    }
+  }
+
+  .orbit-previous, .orbit-next {
+    top: 55%;
+    color: #6c3030;
+    &:hover {
+      background-color: transparent;
+      color: #407a61;
+    }
+    &:active {
+      background-color: transparent;
+      color: #6c3030;
+    }
+    @include tabletport {
+      top: 40%;
+    }
+    @include mobileland {
+      top: 30%;
+    }
+  }
+
+  p {
+    text-align: center;
+    font-family: $proxima;
+    font-size: 1.75rem;
+    color: #6c3030;
+    font-weight: 400;
+    letter-spacing: 0.026rem;
+    padding-left: 200px;
+    padding-right: 200px;
+    @include breakpoint(large down) {
+      font-size: 1.4rem;
+      padding-left: 90px;
+      padding-right: 90px;
+    }
+    @include tabletland {
+      padding: 50px 90px;
+    }
+    @include tabletport {
+      padding: 50px 90px;
+      font-size: 1.1rem;
+    }
+    @include breakpoint(small only) {
+      font-size: 1rem;
+      padding: 0;
+      padding-top: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+
+  .testimonial-background {
+    background-color: $primary;
+    height: 20rem;
+    @include breakpoint(large down) {
+      height: 17.5rem;
+    }
+    @include breakpoint(small only) {
+      height: 20rem;
+    }
+    @include mobileland {
+      height: 15rem;
+    }
+    @include mobileport {
+      height: 21rem;
+    }
+  }
+}
+
+.orbit-container {
+  height: auto !important;
+  @include tabletland {
+    height: 260px !important;
+  }
+  @include mobileland {
+    height: 300px !important;
+  }
+}
+// END TESTIMONIAL SECTION

@@ -1,0 +1,2671 @@
+/*******************************************************
+             WINTER SPECIAL STYLING
+*******************************************************/
+
+.winter-special {
+  margin-top: 50px;
+  color: red;
+
+  @include tabletland {
+    margin-top: 10px;
+  }
+
+  @include mobileport {
+    margin-top: 5px;
+  }
+
+  @include mobileland {
+    margin-top: 5px;
+  }
+
+  p {
+      font-size: 1.6rem;
+      font-weight: 700;
+
+      @include tabletland {
+        font-size: 1rem;
+      }
+
+      @include mobileland {
+        font-size: 1rem;
+      }
+
+      @include mobileport {
+        font-size: 1rem;
+      }
+  }
+}
+
+
+/*******************************************************
+             DELUXE MISTY TOURS
+*******************************************************/
+
+#tour-package-hero {
+
+  .grid-container {
+    padding: 0;
+  }
+
+  .deluxe-hero {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 75%, rgba(0, 0, 0, 0.72) 100%), url(../img/deluxe_hero.jpg);
+    height: 110vh;
+    margin-top: -175px;
+    position: relative;
+    z-index: -3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @include tabletland {
+      margin-top: -200px;
+    }
+    @include mobileland {
+      height: 130vh;
+    }
+    .white-box {
+      width: 75.063rem;
+      height: 9.375rem;
+      background: rgba(255, 255, 255, 0.21);
+      margin-top: 50vh;
+      @include tabletland {
+        width: auto;
+      }
+      @include breakpoint(medium down) {
+        width: auto;
+      }
+      @include mobileland {
+        height: 7rem;
+        margin-top: 60vh;
+      }
+      @include mobileport {
+        height: auto;
+      }
+      h1 {
+        color: white;
+        text-align: center;
+        padding-top: 3rem;
+        @include tabletport {
+          padding-top: 3.4rem;
+          font-size: 1.8rem;
+        }
+        @include mobileland {
+          font-size: 1.8rem;
+          padding-top: 2rem;
+        }
+        @include mobileport {
+          padding-top: 2rem;
+          padding-bottom: 2rem;
+        }
+      }
+    }
+  }
+
+  .glacier-hero {
+    background-image: url(../img/glacier_hero.jpg);
+    height: 110vh;
+    margin-top: -175px;
+    position: relative;
+    z-index: -3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @include tabletland {
+      margin-top: -200px;
+    }
+    .white-box {
+      width: 75.063rem;
+      height: 9.375rem;
+      background: rgba(255, 255, 255, 0.21);
+      margin-top: 50vh;
+      @include tabletland {
+        width: auto;
+      }
+      @include breakpoint(medium down) {
+        width: auto;
+      }
+      @include mobileport {
+        height: auto;
+      }
+      h1 {
+        color: white;
+        text-align: center;
+        padding-top: 3rem;
+        @include mobileport {
+          padding-top: 2rem;
+          padding-bottom: 2rem;
+        }
+      }
+    }
+  }
+}
+
+
+// Bear Viewing Hero Section
+
+#bear-viewing-hero {
+  .grid-container {
+    padding: 0;
+  }
+  .bear-hero {
+    background-image: url(../img/bear_hero.jpg);
+    height: 110vh;
+    margin-top: -175px;
+    position: relative;
+    z-index: -3;
+    @include tabletland {
+      margin-top: -200px;
+    }
+    @include mobileland {
+      height: 130vh;
+    }
+    background-size: cover;
+    .white-box {
+      width: 75.063rem;
+      height: 9.375rem;
+      background: rgba(255, 255, 255, 0.21);
+      margin-top: 50vh;
+      @include tabletland {
+        width: auto;
+      }
+      @include breakpoint(medium down) {
+        width: auto;
+      }
+      @include mobileland {
+        margin-top: 60vh;
+      }
+      @include mobileport {
+        height: auto;
+      }
+      h1 {
+        color: white;
+        text-align: center;
+        padding-top: 3rem;
+        @include mobileport {
+          padding-top: 2rem;
+          padding-bottom: 2rem;
+        }
+      }
+    }
+  }
+}
+
+
+// Fishing Guides Hero
+
+#fullfishing-hero {
+  .grid-container {
+    padding: 0;
+  }
+  .hero {
+    background-image: url(../img/fishing-hero.jpg);
+    height: 110vh;
+    margin-top: -175px;
+    position: relative;
+    z-index: -3;
+    background-size: cover;
+    @include tabletland {
+      margin-top: -200px;
+    }
+    @include mobileland {
+      height: 130vh;
+    }
+    .white-box {
+      width: 75.063rem;
+      height: 9.375rem;
+      background: rgba(255, 255, 255, 0.21);
+      margin-top: 50vh;
+      @include tabletland {
+        width: auto;
+      }
+      @include breakpoint(medium down) {
+        width: auto;
+      }
+      @include mobileland {
+        margin-top: 60vh;
+      }
+      h1 {
+        color: white;
+        text-align: center;
+        padding-top: 3rem;
+      }
+    }
+  }
+}
+
+// Tours Packages Hero
+
+.main-tours-hero {
+  .grid-container {
+    padding: 0;
+  }
+  .hero {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(85, 77, 77, 0.32) 75%, rgba(77, 54, 2, 0.72) 100%), url(../img/tours_hero.jpg);
+    height: 110vh;
+    margin-top: -175px;
+    @include tabletland {
+      margin-top: -200px;
+    }
+    @include mobileland {
+      margin-top: 0;
+    }
+    background-size: cover;
+    .tours-box {
+      width: 75.063rem;
+      height: 12.625rem;
+      background: rgba(157, 98, 48, 0.35);
+      margin-top: 50vh;
+      @include breakpoint(large down) {
+        width: auto;
+      }
+      @include tabletland {
+        width: auto;
+      }
+      @include mobileland {
+        margin-top: 25vh;
+        width: auto;
+      }
+      @include mobileport {
+        width: auto;
+      }
+      .small-offset-1 {
+        @include breakpoint(lmedium down) {
+          margin-left: 4%;
+        }
+        @include tabletport {
+          margin-left: 4.5rem;
+        }
+        @include mobileland {
+          margin-left: 2rem;
+        }
+      }
+      hr {
+        width: 6.438rem;
+        height: 0.313rem;
+        box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.59);
+        background-color: #9d6230;
+        border: none;
+        @include tabletland {
+          width: 5rem;
+        }
+        @include tabletport {
+          width: 5rem;
+        }
+        @include mobileland {
+          width: 4.5rem;
+        }
+        @include mobileport {
+          display: none;
+        }
+      }
+      h1 {
+        color: white;
+        text-align: center;
+        padding-top: 3rem;
+        font-size: 3.313rem;
+        font-weight: 400;
+        text-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.47);
+        letter-spacing: 0.331rem;
+        @include tabletland {
+          font-size: 3rem;
+        }
+        @include tabletport {
+          text-align: left;
+          font-size: 2rem;
+          padding-left: 3rem;
+        }
+        @include mobileland {
+          font-size: 2rem;
+        }
+        @include mobileport {
+          font-size: 2rem;
+          padding-top: 3.5rem;
+        }
+      }
+      p {
+        text-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.86);
+        color: #ffffff;
+        font-family: $proxima;
+        font-size: 1.75rem;
+        font-weight: 400;
+        letter-spacing: 0.026rem;
+        text-align: center;
+        @include tabletland {
+          font-size: 1.5rem;
+        }
+        @include tabletport {
+          font-size: 1rem;
+          text-align: left;
+          padding-top: 10px;
+        }
+        @include mobileland {
+          font-size: 1rem;
+          padding-top: 10px;
+          text-align: center;
+        }
+        @include mobileport {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+
+
+/*******************************************************
+             CRAB & FLIGHTSEEING PACKAGE
+*******************************************************/
+
+
+#crabflight-package-hero {
+ @extend #tour-package-hero;
+
+ .crabflight-hero {
+   @extend .deluxe-hero;
+       background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(85, 77, 77, 0.32) 75%, rgba(77, 54, 2, 0.72) 100%), url(../img/crabflight_hero.jpg);
+ }
+
+}
+
+.crabflight-duration-header {
+  margin-bottom: 15px !important;
+}
+
+.duration-list {
+  ul {
+   list-style-type: none;
+   padding-left: 0;
+   margin-left: 0;
+  }
+
+  li {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: $proxima;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.42px;
+    line-height: 2;
+  }
+
+  p {
+    font-size: 22px;
+    &:last-child {
+      padding-bottom: 60px;
+    }
+  }
+}
+
+
+
+/*******************************************************
+             CRAB & MISTY PACKAGE
+*******************************************************/
+
+
+#crabmisty-package-hero {
+  @extend #crabflight-package-hero;
+
+  .crabmisty-hero {
+    @extend .deluxe-hero;
+       background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(85, 77, 77, 0.32) 75%, rgba(77, 54, 2, 0.72) 100%), url(../img/mistycrab_hero.jpg);
+     }
+}
+
+.tour-description-crabmisty {
+  p {
+    &:nth-child(2) {
+      padding-bottom: 20px;
+    }
+    &:nth-child(3) {
+      padding-bottom: 20px;
+    }
+    &:last-child {
+      padding-top: 0 !important;
+    }
+  }
+}
+
+
+
+/*******************************************************
+             DAVE'S CHOICE PACKAGE
+*******************************************************/
+
+
+#daveschoice-package-hero {
+  @extend #crabmisty-package-hero;
+
+  .daveschoice-hero {
+    @extend .deluxe-hero;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(85, 77, 77, 0.32) 75%, rgba(77, 54, 2, 0.72) 100%), url(../img/daveschoice_hero.jpg);
+  }
+}
+
+
+
+
+
+
+/*******************************************************
+             MISTY FJORDS PACKAGES
+*******************************************************/
+
+.misty-tourpackages {
+
+  margin-top: 90px;
+
+  h1 {
+    text-align: center;
+    color: #00384f;
+    font-size: 3.313rem;
+    font-weight: 700;
+    @include tabletport {
+      font-size: 2.4rem;
+    }
+    @include mobileland {
+      font-size: 2.2rem;
+    }
+    @include mobileport {
+      font-size: 2.1rem;
+    }
+  }
+
+  &__header {
+    h1 {
+      margin-bottom: 0px;
+      padding-bottom: 35px;
+    }
+    h5 {
+      text-align: center;
+      color: rgba(0, 0, 0, 0.8);
+      font-family: $proxima;
+      font-size: 1.75rem;
+      font-weight: 500;
+      letter-spacing: 0.026rem;
+      padding-bottom: 70px;
+      @include tabletland {
+        padding-left: 3rem;
+        padding-right: 3rem;
+      }
+      @include tabletport {
+        font-size: 1.4rem;
+      }
+      @include mobileland {
+        font-size: 1.25rem;
+      }
+      @include mobileport {
+        font-size: 1.1rem;
+      }
+    }
+  }
+
+  .grid-container {
+    max-width: 114rem;
+  }
+
+  // MISTY TOURS DELUXE PACKAGE
+
+  &__fjords {
+
+    height: 48.75rem;
+    margin-right: 8px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(85, 77, 77, 0.32) 70%, #52534d 100%), url(../img/fjords_desired.jpg);
+    background-position: center;
+    background-size: cover;
+
+    .grid-y {
+      .medium-9 {
+        height: 79%;
+      }
+      .medium-3 {
+        height: 20%
+      }
+    }
+
+    .time-section {
+      padding-top: 20px;
+      .medium-1 {
+        width: 6%;
+        @include mobileport {
+          width: 10%;
+        }
+      }
+      .small-9 {
+      @include mobileland {
+        margin-left: 2%;
+      }
+      }
+      h4 {
+        color: white;
+        font-family: $proxima;
+        font-size: 2.063rem;
+        font-weight: 600;
+        letter-spacing: 0.206rem;
+        margin-top: -3px;
+        @include breakpoint(medium down) {
+          padding-left: 10px;
+        }
+        @include mobileland {
+          font-size: 1.4rem;
+          margin-top: -1px;
+        }
+      }
+    }
+
+    .fjord-header {
+      padding-left: 30px;
+      @include breakpoint(small only) {
+        padding-left: 10px;
+      }
+      @include mobileland {
+        padding-left: 30px;
+      }
+    }
+
+    .vert-bar {
+      width: 0.375rem;
+      height: 7rem;
+      background-color: #467588;
+      margin-top: 0.6rem;
+      @include breakpoint(small only) {
+        height: 8rem;
+      }
+      @include mobileland {
+        height: 7rem;
+      }
+    }
+
+    h1 {
+      color: rgba(255, 255, 255, 0.8);
+      font-family: $proxima;
+      font-size: 2.8rem;
+      font-weight: 900;
+      letter-spacing: 0.046rem;
+      text-transform: uppercase;
+      padding-left: 12px;
+      text-align: left;
+      @include breakpoint(xlarge down) {
+        font-size: 2.3rem
+      }
+      @include breakpoint(medium down) {
+        font-size: 2rem;
+      }
+      @include breakpoint(small only) {
+        font-size: 1.7rem;
+        line-height: 1.1;
+      }
+      @include mobileland {
+        font-size: 2rem;
+      }
+    }
+
+    h5 {
+      padding-left: 14px;
+      color: rgba(255, 255, 255, 0.8);
+      font-family: $proxima;
+      font-size: 1.875rem;
+      font-weight: 700;
+      letter-spacing: 0.188rem;
+      text-transform: uppercase;
+      position: relative;
+      top: -25px;
+      @include breakpoint(medium down) {
+        left: -3px;
+        top: -20px;
+      }
+      @include breakpoint(small only) {
+        top: -15px;
+      }
+      @include mobileland {
+        top: -12.5px;
+      }
+    }
+
+    .buttons-grid {
+      .reserve-now {
+        padding-left: 2%;
+        margin-top: -3.1%;
+        @include breakpoint(large down) {
+          margin-top: -2.7%;
+        }
+        @include breakpoint(medium down) {
+          margin-top: -4%;
+        }
+        @include breakpoint(small only) {
+          margin-top: -8%;
+          padding-left: 5%;
+        }
+        @include mobileland {
+          margin-top: -4.2%;
+          padding-left: 3%;
+        }
+      }
+
+      .discover-more {
+        margin-top: -3.1%;
+        padding-left: 6.5%;
+        @include breakpoint(large down) {
+          padding-left: 12.5%;
+          margin-top: -2.7%;
+        }
+        @include breakpoint(medium down) {
+          padding-left: 5%;
+          margin-top: -4%
+        }
+        @include breakpoint(small only) {
+          margin-top: -8%;
+        }
+        @include mobileland {
+          margin-top: -4.2%;
+          padding-left: 15%;
+        }
+      }
+    }
+
+    .small-offset-1 {
+      @include mobileport {
+        margin-left: 0;
+      }
+    }
+
+    .reserve-button {
+      width: 11.813rem;
+      height: 1.813rem;
+      box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.43);
+      background-color: #00384f;
+      opacity: 0.8;
+      color: rgba(255, 255, 255, 0.8);
+      font-family: $proxima;
+      font-size: 1.125rem;
+      font-weight: 700;
+      letter-spacing: 0.113rem;
+      text-transform: uppercase;
+      padding: 5px 0;
+      @include breakpoint(small only) {
+        width: 10rem;
+        font-size: 0.925rem;
+      }
+    }
+
+    .discover-button {
+      width: 11.813rem;
+      height: 1.813rem;
+      box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.16);
+      background-color: #467588;
+      opacity: 0.8;
+      color: rgba(255, 255, 255, 0.8);
+      font-family: $proxima;
+      font-size: 1.125rem;
+      font-weight: 700;
+      letter-spacing: 0.113rem;
+      text-transform: uppercase;
+      padding: 5px 0;
+      @include breakpoint(small only) {
+        width: 10rem;
+        font-size: 0.925rem;
+      }
+    }
+
+    @include breakpoint(large down) {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+
+
+  }
+
+  // BASIC MISTY PACKAGE
+
+  &__basic-tour {
+    height: 48.75rem;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(85, 77, 77, 0.32) 65%, #52534d 100%), url(../img/basic_tour.jpg);
+    background-position: center;
+    background-size: cover;
+
+    @include breakpoint(large down) {
+      margin-bottom: 10px;
+    }
+    @include tabletport {
+      margin-right: 0;
+    }
+    @include mobileland {
+      margin-right: 0;
+    }
+    @include breakpoint(medium down) {
+      margin-right: 0;
+    }
+    h4, h5 {
+      @include breakpoint(large down) {
+        font-size: 1.5rem;
+      }
+    }
+
+    // GRID Y MEDIUM 9 STYLING
+
+    .grid-y {
+      .medium-7 {
+        height: 79%;
+      }
+    }
+
+    .time-section {
+      padding-top: 20px;
+      img {
+        margin-left: 21px;
+        @include tabletland {
+          padding-left: 11px;
+          padding-top: 6px;
+        }
+        @include mobileland {
+          padding-left: 0;
+          margin-left: 11px;
+        }
+        @include mobileport {
+          padding-left: 0;
+          margin-left: 11px;
+        }
+      }
+      .small-1 {
+        width: 6%;
+        @include mobileport {
+          width: 10%;
+        }
+      }
+      .small-9 {
+        @include breakpoint(large down) {
+          padding-left: 20px;
+        }
+        @include mobileport {
+          padding-left: 10px;
+        }
+      }
+      h4 {
+        color: white;
+        font-family: $proxima;
+        font-size: 2.063rem;
+        font-weight: 600;
+        letter-spacing: 0.206rem;
+        margin-top: -2px;
+        padding-left: 1rem;
+        @include tabletland {
+          font-size: 2.5rem;
+        }
+        @include mobileland {
+          font-size: 1.4rem;
+          margin-top: 2px;
+        }
+      }
+    }
+
+    .basic-tour-header {
+      padding-left: 20px;
+      @include breakpoint(small only) {
+        padding-left: 10px;
+      }
+      @include mobileland {
+        padding-left: 20px;
+      }
+    }
+
+    .vert-bar {
+      width: 0.375rem;
+      height: 7rem;
+      background-color: #467588;
+      margin-top: 0.6rem;
+    }
+
+    h1 {
+      color: rgba(255, 255, 255, 0.8);
+      font-family: $proxima;
+      font-size: 2.8rem;
+      font-weight: 900;
+      letter-spacing: 0.046rem;
+      text-align: left;
+      margin-left: 0.5rem;
+      @include breakpoint(xlarge down) {
+        font-size: 2.3rem
+      }
+      @include breakpoint(small only) {
+        font-size: 1.7rem;
+        line-height: 1.1;
+      }
+      @include mobileland {
+        font-size: 2rem;
+      }
+    }
+    h5 {
+      color: rgba(255, 255, 255, 0.8);
+      font-family: $proxima;
+      font-size: 1.875rem;
+      font-weight: 700;
+      letter-spacing: 0.188rem;
+      text-transform: uppercase;
+      padding-left: 1.5%;
+      position: relative;
+      top: -20px;
+      @include breakpoint(small only) {
+        top: -15px;
+        padding-left: 2.75%;
+      }
+      @include mobileland {
+        top: -12.5px;
+        padding-left: 1.5%;
+      }
+    }
+
+    .buttons-grid {
+      .reserve-now {
+        padding-left: 5%;
+        margin-top: -4.1%;
+        @include breakpoint(large down) {
+          padding-left: 3%;
+          margin-top: -2.7%;
+        }
+        @include tabletland {
+          margin-top: -3%;
+        }
+        @include tabletport {
+          padding-left: 5%;
+          margin-top: -4.2%;
+        }
+        @include breakpoint(small only) {
+          margin-top: -8%;
+          padding-left: 6%;
+        }
+        @include mobileland {
+          margin-top: -4.2%;
+          padding-left: 5%;
+        }
+      }
+      .discover-more {
+        margin-top: -4.1%;
+        @include breakpoint(large down) {
+          padding-left: 13%;
+          margin-top: -2.7%;
+        }
+        @include tabletland {
+          margin-top: -3%;
+        }
+        @include tabletport {
+          padding-left: 6%;
+          margin-top: -4.2%;
+        }
+        @include breakpoint(small only) {
+          margin-top: -8%;
+        }
+        @include mobileland {
+          margin-top: -4.2%;
+          padding-left: 18%;
+        }
+      }
+    }
+
+    .small-offset-3 {
+      @include mobileport {
+        margin-left: 15%;
+      }
+    }
+
+    .reserve-button {
+      width: 11.813rem;
+      height: 1.813rem;
+      box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.43);
+      background-color: #00384f;
+      opacity: 0.8;
+      color: rgba(255, 255, 255, 0.8);
+      font-family: $proxima;
+      font-size: 1.125rem;
+      font-weight: 700;
+      letter-spacing: 0.113rem;
+      text-transform: uppercase;
+      padding: 5px 0;
+      @include breakpoint(small only) {
+        width: 10rem;
+        font-size: 0.925rem;
+      }
+    }
+
+    .small-offset-1 {
+      @include mobileport {
+        margin-left: 6%;
+      }
+    }
+
+    .discover-button {
+      width: 11.813rem;
+      height: 1.813rem;
+      box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.16);
+      background-color: #467588;
+      opacity: 0.8;
+      color: rgba(255, 255, 255, 0.8);
+      font-family: $proxima;
+      font-size: 1.125rem;
+      font-weight: 700;
+      letter-spacing: 0.113rem;
+      text-transform: uppercase;
+      padding: 5px 0;
+      @include breakpoint(small only) {
+        width: 10rem;
+        font-size: 0.925rem;
+      }
+    }
+  }
+
+} // End .misty-tourpackages
+
+/*******************************************************
+             FISHING & WILDLIFE PACKAGES
+*******************************************************/
+
+.wildlife-tourpackage {
+
+  @extend .misty-tourpackages;
+  margin-bottom: 80px;
+
+  &__header {
+
+    h1 {
+      margin-bottom: 0px;
+      padding-bottom: 25px;
+      color: #407a61;
+    }
+
+    h5 {
+      text-align: center;
+      color: rgba(0, 0, 0, 0.8);
+      font-family: $proxima;
+      font-size: 1.75rem;
+      font-weight: 500;
+      letter-spacing: 0.026rem;
+      padding-bottom: 70px;
+      @include tabletland {
+        padding-left: 3rem;
+        padding-right: 3rem;
+      }
+    }
+  }
+
+  &__fullfishing {
+    margin-top: 10px;
+    @extend .desired-tours__fjords;
+
+    @include breakpoint(large down) {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(85, 77, 77, 0.32) 70%, #52534d 100%), url(../img/fullfishing_tour.jpg);
+
+    @include breakpoint(small only) {
+      background-position: left;
+    }
+
+    h1 {
+      color: rgba(255, 255, 255, 0.8);
+      text-align: left;
+      font-size: 2.8rem;
+      font-weight: 900;
+      @include breakpoint(large down) {
+        text-align: left;
+        margin-bottom: 5px;
+      }
+      @include breakpoint(medium down) {
+        font-size: 2rem;
+      }
+      @include breakpoint(small only) {
+        font-size: 1.7rem;
+        line-height: 1.1;
+      }
+      @include mobileland {
+        font-size: 2rem;
+      }
+    }
+
+    h5 {
+      @include mobileport {
+        font-size: 1.5rem ;
+      }
+    }
+
+    .time-section {
+      padding-left: 21px;
+    }
+
+    .grid-y {
+      .medium-9 {
+        height: 79%;
+      }
+      .medium-3 {
+        height: 20%
+      }
+    }
+
+    .fullfish-header {
+      padding-left: 30px;
+      @include breakpoint(small only) {
+        padding-left: 10px;
+      }
+      @include mobileland {
+        padding-left: 30px;
+      }
+    }
+
+    .buttons-grid {
+      .reserve-now {
+        padding-left: 5%;
+        @include tabletport {
+          padding-left: 6.5%;
+        }
+        @include mobileland {
+          padding-left: 7%;
+        }
+      }
+    }
+
+    .reserve-button {
+      box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.43);
+      background-color: #407a61;
+      opacity: 0.8;
+    }
+
+    .discover-button {
+      box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.16);
+      background-color: #84916c;
+      opacity: 0.8;
+    }
+
+    .discover-more {
+      @include breakpoint(large down) {
+        padding-left: 13%;
+      }
+      @include mobileland {
+        padding-left: 7rem !important;
+      }
+    }
+
+    .vert-bar {
+      width: 0.375rem;
+      height: 7rem;
+      background-color: #84916c;
+      margin-top: 12px;
+      @include breakpoint(small only) {
+        height: 8rem;
+      }
+      @include mobileland {
+        height: 7rem;
+      }
+    }
+  }
+
+  &__bears {
+    @extend .desired-tours__bears;
+    @include breakpoint(large down) {
+
+      margin-right: 5px;
+      margin-left: 0px;
+      margin-top: 0;
+    }
+
+    @include breakpoint(medium down) {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    img {
+      margin-left: 21px;
+      padding: 0 !important;
+      @include tabletland {
+        padding-left: 11px;
+        padding-top: 6px;
+      }
+      @include mobileland {
+        padding-left: 0;
+        margin-left: 11px;
+      }
+      @include mobileport {
+        padding-left: 0;
+        margin-left: 11px;
+      }
+    }
+    .small-9 {
+      @include breakpoint(large down) {
+        padding-left: 20px;
+      }
+      @include mobileport {
+        padding-left: 10px;
+      }
+    }
+    h1 {
+      color: rgba(255, 255, 255, 0.8);
+      text-align: left;
+      font-size: 2.8rem;
+      font-weight: 900;
+      @include breakpoint(large down) {
+        margin-bottom: 10px;
+        font-size: 2.6rem;
+      }
+      @include breakpoint(lmedium down) {
+        font-size: 2rem;
+      }
+      @include tabletland {
+        font-size: 2rem;
+        margin-top: 5px;
+      }
+      @include breakpoint(small only) {
+        font-size: 1.7rem;
+        line-height: 1.1;
+      }
+      @include mobileland {
+        font-size: 2rem;
+      }
+    }
+
+    h4, h5 {
+      @include breakpoint(large down) {
+        font-size: 1.75rem;
+      }
+    }
+
+    h5 {
+      padding-left: 2%;
+      @include breakpoint(small only) {
+        top: -12px;
+        font-size: 1.375rem;
+        padding-left: 11px;
+      }
+      @include mobileland {
+        top: -12.5px;
+        font-size: 1.875rem;
+      }
+    }
+
+    .reserve-button {
+      box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.43);
+      background-color: #407a61;
+      opacity: 0.8;
+      margin-left: 1%;
+    }
+
+    .discover-button {
+      box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.16);
+      background-color: #84916c;
+      opacity: 0.8;
+    }
+
+    .reserve-now {
+      @include breakpoint(large down) {
+        padding-left: 8% !important;
+        margin-top: -5.1%;
+      }
+      @include breakpoint(lmedium down) {
+        padding-left: 9% !important;
+      }
+      @include tabletland {
+        padding-left: 9% !important;
+        margin-top: -6.2% !important;
+      }
+      @include tabletport {
+        margin-top: -4.2% !important;
+        padding-left: 0 !important;
+      }
+      @include breakpoint(small only) {
+        padding-left: 26px !important;
+      }
+      @include mobileland {
+        padding-left: 5% !important;
+      }
+    }
+
+    .discover-more {
+      margin-top: -5.1%;
+      @include tabletport {
+        margin-top: -4.2% !important;
+        padding-left: 7rem !important;
+      }
+      @include breakpoint(small only) {
+        padding-left: 4% !important;
+      }
+      @include mobileland {
+        padding-left: 10.5rem !important;
+      }
+    }
+
+    .vert-bar {
+      width: 0.375rem;
+      height: 7rem;
+      background-color: #84916c;
+      margin-top: 12px;
+    }
+  }
+
+   &__minifishing {
+     margin-top: 10px;
+     @extend .desired-tours__fishing;
+
+    @include breakpoint(large down) {
+      margin-left: 5px;
+      margin-top: 0;
+      margin-right: 0;
+    }
+    img {
+      margin-left: 21px;
+      padding-left: 0 !important;
+      @include tabletland {
+        padding-left: 11px;
+        padding-top: 6px;
+      }
+      @include mobileland {
+        padding-left: 0;
+        margin-left: 11px;
+      }
+      @include mobileport {
+        padding-left: 0;
+        margin-left: 11px;
+      }
+    }
+
+    .small-9 {
+      @include breakpoint(large down) {
+        padding-left: 20px;
+      }
+      @include mobileport {
+        padding-left: 10px;
+      }
+    }
+
+     h1 {
+       color: rgba(255, 255, 255, 0.8);
+       text-align: left;
+       font-size: 2.8rem;
+       font-weight: 900;
+       @include breakpoint(large down) {
+         margin-bottom: 10px;
+       }
+       @include breakpoint(lmedium down) {
+         font-size: 2rem;
+       }
+       @include tabletland {
+         font-size: 2rem;
+       }
+       @include breakpoint(small only) {
+         font-size: 1.7rem;
+         line-height: 1.1;
+       }
+       @include mobileland {
+         font-size: 2rem;
+       }
+     }
+
+     h4, h5 {
+       @include breakpoint(large down) {
+         font-size: 1.75rem;
+       }
+     }
+
+     h5 {
+       padding-left: 2.5%;
+       @include breakpoint(small only) {
+         top: -12px;
+         font-size: 1.375rem;
+         padding-left: 15px;
+       }
+       @include mobileland {
+         top: -12.5px;
+         font-size: 1.875rem;
+       }
+     }
+
+     .reserve-button {
+       box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.43);
+       background-color: #407a61;
+       opacity: 0.8;
+     }
+
+     .reserve-now {
+       @include breakpoint(large down) {
+         padding-left: 8% !important;
+         margin-top: -5.1%;
+       }
+       @include breakpoint(lmedium down) {
+         padding-left: 9% !important;
+       }
+       @include tabletland {
+         padding-left: 9% !important;
+         margin-top: -6.2% !important;
+       }
+       @include tabletport {
+         margin-top: -4.2% !important;
+         margin-left: -0.3rem !important;
+
+       }
+       @include breakpoint(small only) {
+         padding-left: 26px !important;
+       }
+       @include mobileland {
+         padding-left: 6% !important;
+       }
+     }
+
+     .discover-button {
+       box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.16);
+       background-color: #84916c;
+       opacity: 0.8;
+     }
+
+     .discover-more {
+       @include breakpoint(large down) {
+         margin-top: -5.1%;
+       }
+       @include tabletport {
+         margin-top: -4.2% !important;
+         padding-left: 10rem !important;
+       }
+       @include breakpoint(small only) {
+         padding-left: 4% !important;
+       }
+       @include mobileland {
+         padding-left: 10.5rem !important;
+       }
+     }
+
+     .vert-bar {
+       width: 0.375rem;
+       height: 7rem;
+       background-color: #84916c;
+       margin-top: 12px;
+     }
+  }
+}
+
+
+
+/*******************************************************
+             CRABFEAST PACKAGES
+*******************************************************/
+
+
+
+.crabfeast-tourpackage {
+  @extend .wildlife-tourpackage;
+
+  // CRABFEAST HEADER
+
+  &__header {
+
+    h1 {
+      margin-bottom: 0px;
+      padding-bottom: 25px;
+      color: #6c3030;
+    }
+
+    h5 {
+      text-align: center;
+      color: rgba(0, 0, 0, 0.8);
+      font-family: $proxima;
+      font-size: 1.75rem;
+      font-weight: 500;
+      letter-spacing: 0.026rem;
+      padding-bottom: 70px;
+      @include tabletland {
+        padding-left: 3rem;
+        padding-right: 3rem;
+      }
+    }
+  }
+
+  // CRABFEAST FLIGHTSEEING TOUR
+
+  &__crabflightseeing {
+    margin-top: 10px;
+    @extend .desired-tours__fjords;
+
+    @include breakpoint(large down) {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(85, 77, 77, 0.32) 70%, #52534d 100%), url(../img/crab_flight_tour.jpg);
+
+    @include breakpoint(small only) {
+      background-position: left;
+    }
+
+    h1 {
+      color: rgba(255, 255, 255, 0.8);
+      text-align: left;
+      font-size: 2.7rem;
+      font-weight: 900;
+      @include breakpoint(large down) {
+        text-align: left;
+        margin-bottom: 5px;
+      }
+      @include breakpoint(medium down) {
+        font-size: 2rem;
+      }
+      @include breakpoint(small only) {
+        font-size: 1.7rem;
+        line-height: 1.1;
+      }
+
+      @include tabletport {
+        font-size: 1.8rem;
+      }
+
+      @include mobileland {
+        font-size: 2rem;
+      }
+    }
+
+    h5 {
+      @include mobileport {
+        font-size: 1.5rem ;
+      }
+    }
+
+    .time-section {
+      padding-left: 21px;
+    }
+
+    .grid-y {
+      .medium-9 {
+        height: 79%;
+      }
+      .medium-3 {
+        height: 20%
+      }
+    }
+
+    .crabflightseeing-header {
+      padding-left: 30px;
+      @include breakpoint(small only) {
+        padding-left: 10px;
+      }
+      @include tabletport {
+        padding-left: 20px;
+      }
+      @include mobileland {
+        padding-left: 30px;
+      }
+    }
+
+    .buttons-grid {
+      .reserve-now {
+        padding-left: 5%;
+        @include breakpoint(large down) {
+          padding-left: 4%;
+        }
+        @include tabletport {
+          padding-left: 5.3%;
+        }
+        @include mobileland {
+          padding-left: 7%;
+        }
+      }
+    }
+
+    .reserve-button {
+      box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.43);
+      background-color: #6c3030;
+      opacity: 0.8;
+    }
+
+    .discover-button {
+      box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.16);
+      background-color: #9d6230;
+      opacity: 0.8;
+    }
+
+    .discover-more {
+      @include breakpoint(large down) {
+        padding-left: 13%;
+      }
+      @include mobileland {
+        padding-left: 7rem !important;
+      }
+    }
+
+    .vert-bar {
+      width: 0.375rem;
+      height: 7rem;
+      background-color: #6c3030;
+      margin-top: 12px;
+      @include breakpoint(small only) {
+        height: 8rem;
+      }
+      @include mobileland {
+        height: 7rem;
+      }
+    }
+  }
+
+ // DAVE'S CHOICE STYLING
+
+ &__daveschoice {
+   @extend .desired-tours__bears;
+   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(85, 77, 77, 0.32) 65%, #52534d 100%), url("../img/daves_choice_card.jpg");
+
+   @include breakpoint(large down) {
+
+     margin-right: 5px;
+     margin-left: 0px;
+     margin-top: 0;
+   }
+
+   @include breakpoint(medium down) {
+     margin-right: 0;
+     margin-bottom: 10px;
+   }
+   img {
+     margin-left: 21px;
+     padding: 0 !important;
+     @include tabletland {
+       padding-left: 11px;
+       padding-top: 6px;
+     }
+     @include mobileland {
+       padding-left: 0;
+       margin-left: 11px;
+     }
+     @include mobileport {
+       padding-left: 0;
+       margin-left: 11px;
+     }
+   }
+   .small-9 {
+     @include breakpoint(large down) {
+       padding-left: 20px;
+     }
+     @include mobileport {
+       padding-left: 10px;
+     }
+   }
+   h1 {
+     color: rgba(255, 255, 255, 0.8);
+     text-align: left;
+     font-size: 2.8rem;
+     font-weight: 900;
+     @include breakpoint(large down) {
+       margin-bottom: 10px;
+     }
+     @include breakpoint(lmedium down) {
+       font-size: 2rem;
+     }
+     @include tabletland {
+       font-size: 2rem;
+       margin-top: 5px;
+     }
+     @include breakpoint(small only) {
+       font-size: 1.7rem;
+       line-height: 1.1;
+     }
+     @include mobileland {
+       font-size: 2rem;
+     }
+   }
+
+   h4, h5 {
+     @include breakpoint(large down) {
+       font-size: 1.75rem;
+     }
+     @include tabletland {
+       font-size: 1.5rem;
+     }
+   }
+
+   h5 {
+     padding-left: 2%;
+     @include breakpoint(small only) {
+       top: -12px;
+       font-size: 1.375rem;
+       padding-left: 11px;
+     }
+     @include mobileland {
+       top: -12.5px;
+       font-size: 1.875rem;
+     }
+   }
+
+   .dave-header {
+       padding-left: 20px;
+       @include breakpoint(small only) {
+         padding-left: 5px;
+       }
+     }
+
+   .reserve-button {
+     box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.43);
+     background-color: #6c3030;
+     opacity: 0.8;
+     margin-left: 1%;
+
+     @include breakpoint(large only) {
+       margin-left: 6.7%;
+     }
+   }
+
+   .discover-button {
+     box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.16);
+     background-color: #9d6230;
+     opacity: 0.8;
+   }
+
+   .reserve-now {
+     @include breakpoint(large down) {
+       padding-left: 8%;
+       margin-top: -5.1%;
+     }
+     @include breakpoint(lmedium down) {
+       padding-left: 9% !important;
+     }
+     @include tabletland {
+       padding-left: 4% !important;
+       margin-top: -6.2% !important;
+     }
+     @include tabletport {
+       margin-top: -4.2% !important;
+       padding-left: 0 !important;
+       margin-left: 1.9rem !important;
+     }
+     @include breakpoint(small only) {
+       padding-left: 26px !important;
+     }
+     @include mobileland {
+       padding-left: 5% !important;
+     }
+   }
+
+   .discover-more {
+     margin-top: -5.1%;
+     @include tabletport {
+       margin-top: -4.2% !important;
+       padding-left: 8rem !important;
+     }
+     @include breakpoint(small only) {
+       padding-left: 4% !important;
+     }
+     @include mobileland {
+       padding-left: 10.5rem !important;
+     }
+   }
+
+   .vert-bar {
+     width: 0.375rem;
+     height: 7rem;
+     background-color: #6c3030;
+     margin-top: 12px;
+   }
+ }
+
+
+ // MISTY CRABFEST SECTION
+
+   &__crabmisty {
+     margin-top: 10px;
+     @extend .desired-tours__fishing;
+     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(85, 77, 77, 0.32) 65%, #52534d 100%), url("../img/mistry_crab_card.jpg");
+
+
+    @include breakpoint(large down) {
+      margin-left: 5px;
+      margin-top: 0;
+      margin-right: 0;
+    }
+
+    @include tabletport {
+      margin-left: 0;
+    }
+
+    img {
+      margin-left: 21px;
+      padding-left: 0 !important;
+      @include tabletland {
+        padding-left: 11px;
+        padding-top: 6px;
+      }
+      @include mobileland {
+        padding-left: 0;
+        margin-left: 11px;
+      }
+      @include mobileport {
+        padding-left: 0;
+        margin-left: 11px;
+      }
+    }
+
+    .small-9 {
+      @include breakpoint(large down) {
+        padding-left: 20px;
+      }
+
+      @include mobileport {
+        padding-left: 10px;
+      }
+    }
+
+     h1 {
+       color: rgba(255, 255, 255, 0.8);
+       text-align: left;
+       font-size: 1.6vw;
+       margin-top: 5px;
+       margin-bottom: 15px;
+       font-weight: 900;
+
+       @include breakpoint(large down) {
+         margin-bottom: 15px;
+         font-size: 1.9vw;
+       }
+
+       @include breakpoint(lmedium down) {
+         font-size: 1.8vw;
+       }
+
+       @include tabletland {
+         font-size: 1.2rem;
+       }
+
+       @include tabletport {
+         font-size: 1.8rem;
+       }
+
+       @include breakpoint(small only) {
+         font-size: 1.7rem;
+         line-height: 1.1;
+       }
+
+       @include mobileland {
+         font-size: 2rem;
+       }
+
+     }
+
+     h4, h5 {
+       @include breakpoint(large down) {
+         font-size: 1.75rem;
+       }
+     }
+
+     h5 {
+       padding-left: 2.5%;
+       @include breakpoint(small only) {
+         top: -12px;
+         font-size: 1.375rem;
+         padding-left: 15px;
+       }
+       @include mobileland {
+         top: -12.5px;
+         font-size: 1.875rem;
+       }
+     }
+
+     .crabmisty-header {
+       padding-left: 20px;
+       @include breakpoint(small only) {
+         padding-left: 5px;
+       }
+       @include tabletport {
+         padding-left: 0;
+       }
+     }
+
+     .reserve-button {
+       box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.43);
+       background-color: #6c3030;
+       opacity: 0.8;
+     }
+
+     .reserve-now {
+       @include breakpoint(large down) {
+         padding-left: 8% !important;
+         margin-top: -5.1% !important;
+       }
+       @include breakpoint(lmedium down) {
+         padding-left: 9% !important;
+         margin-top: -8% !important;
+       }
+       @include tabletland {
+         padding-left: 9% !important;
+         margin-top: -6.2% !important;
+       }
+       @include tabletport {
+         margin-top: -4.2% !important;
+         margin-left: -1.4rem !important;
+       }
+       @include breakpoint(small only) {
+         padding-left: 26px !important;
+       }
+       @include mobileland {
+         padding-left: 6% !important;
+       }
+     }
+
+     .discover-button {
+       box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.16);
+       background-color: #9d6230;
+       opacity: 0.8;
+     }
+
+     .discover-more {
+       @include breakpoint(large down) {
+         margin-top: -5.1%;
+       }
+       @include breakpoint(lmedium only) {
+         margin-top: -8% !important;
+       }
+       @include tabletport {
+         margin-top: -4.2% !important;
+         padding-left: 11rem !important;
+       }
+       @include tabletland {
+         margin-top: -6% !important;
+       }
+       @include breakpoint(small only) {
+         padding-left: 4% !important;
+       }
+       @include mobileland {
+         padding-left: 10.5rem !important;
+       }
+     }
+
+     .vert-bar {
+       width: 0.375rem;
+       height: 7rem;
+       background-color: #6c3030;
+       margin-top: 12px;
+     }
+  }
+
+
+}
+
+
+
+
+
+/*******************************************************
+                CHARTERS PAGE
+*******************************************************/
+
+// CHARTERS HERO IMAGE SECTION
+
+#charters-hero {
+  .grid-container {
+    padding: 0;
+  }
+  .hero {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 75%, rgba(0, 0, 0, 0.72) 100%), url(../img/charters_hero.jpg);
+    height: 110vh;
+    margin-top: -175px;
+    background-size: cover;
+    @include breakpoint(xlarge down) {
+      background-position: right;
+    }
+    @include tabletland {
+      margin-top: -200px;
+    }
+
+    @include mobileland {
+      height: 130vh;
+    }
+
+
+    .white-box {
+      width: 27.875rem;
+      height: 9.375rem;
+      background: rgba(255, 255, 255, 0.21);
+      margin: 0 auto;
+      margin-top: 50vh;
+
+      h1 {
+        color: white;
+        text-align: center;
+        padding-top: 3rem;
+      }
+      @include mobileland {
+        margin-top: 60vh;
+      }
+    }
+  }
+}
+
+// CHARTERS HEADER/CONTENT SECTION
+
+.charters {
+  margin-top: 3.75rem;
+  padding-left: 2rem;
+  @include breakpoint(small only) {
+    padding-left: 0.4rem;
+  }
+  .medium-10 {
+    width: 81.3333%;
+    @include breakpoint(xlarge down) {
+      width: 75.333%;
+    }
+    @include tabletland {
+      width: 71%;
+    }
+    @include breakpoint(small only) {
+      width: 97%;
+    }
+  }
+  .medium-1 {
+    width: 1.33333%;
+  }
+  &__ver-bar {
+    width: 0.375rem;
+    height: 4.563rem;
+    background-color: #9d6230;
+    @include mobileport {
+      display: none;
+    }
+  }
+  &__main-header {
+    margin-top: -0.8rem;
+
+    h1 {
+      color: #6c3030;
+      font-family: $proxima;
+      font-size: 3.063rem;
+      font-weight: 900;
+      letter-spacing: 0.046rem;
+      text-transform: uppercase;
+    }
+    h2 {
+      color: #6c3030;
+      font-family: $proxima;
+      font-size: 1.875rem;
+      font-weight: 700;
+      letter-spacing: 0.188rem;
+      text-transform: uppercase;
+      margin-top: -1.3rem;
+      @include breakpoint(small only) {
+      font-size: 1.1rem;
+      }
+    }
+  }
+  &__button {
+    width: 18.813rem;
+    height: 2.875rem;
+    box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.43);
+    background-color: #9d6230;
+    opacity: 0.75;
+    color: #ffffff;
+    font-family: $proxima;
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: 0.175rem;
+    text-transform: uppercase;
+    padding-top: 0.6rem;
+    @include breakpoint(small only) {
+      padding-top: 0.5rem;
+    }
+ }
+ .reserve-now {
+   @include breakpoint(medium down) {
+     margin-left: 3rem;
+   }
+   @include breakpoint(small only) {
+     margin-top: 1rem;
+   }
+ }
+ &__description {
+   margin-top: 6.25rem;
+   p {
+     font-family: $proxima;
+     font-size: 1.5rem;
+     font-weight: 400;
+     letter-spacing: 0.026rem;
+     padding-right: 5rem;
+     @include breakpoint(medium down) {
+       padding-right: 3rem;
+     }
+     @include breakpoint(small only) {
+       text-align: center;
+       padding: 0 1rem;
+     }
+     @include mobileport {
+       text-align: left;
+       padding: 0;
+       padding-left: 0.3rem;
+     }
+   }
+  }
+}
+
+// CHARTERS LIST SECTION
+
+.charter-list {
+  margin-bottom: 200px;
+  margin-top: 60px;
+
+  .grid-container {
+    max-width: 115rem;
+  }
+
+  .medium-4 {
+    &:nth-child(2) {
+      text-align: center;
+    }
+    &:nth-child(3) {
+      text-align: right;
+    }
+  }
+
+
+  h4 {
+    color: #6c3030;
+    font-family: $proxima;
+    font-size: 2.313rem;
+    font-weight: 700;
+    letter-spacing: 0.231rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    @include breakpoint(xlarge down) {
+      font-size: 2rem;
+    }
+    @include breakpoint(large down) {
+      font-size: 1.7rem;
+    }
+    @include tabletland {
+      font-size: 1.4rem;
+    }
+    @include breakpoint(small only) {
+      font-size: 0.8rem;
+    }
+  }
+
+  h5 {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: $proxima;
+    font-size: 2.25rem;
+    font-weight: 400;
+    letter-spacing: 0.034rem;
+    @include breakpoint(xlarge down) {
+      font-size: 1.75rem;
+    }
+    @include breakpoint(large down) {
+      font-size: 1.5rem;
+    }
+    @include tabletland {
+      font-size: 1.2rem;
+    }
+    @include breakpoint(small only) {
+      font-size: 1rem;
+    }
+  }
+
+  .flightprice {
+    margin-bottom: 80px;
+  }
+
+  hr {
+    max-width: 100%;
+    height: 0.063rem;
+    border: 0.063rem solid #707070;
+    background-color: black;
+  }
+
+}
+
+
+/*******************************************************
+                LAKE TRIPS PAGE
+*******************************************************/
+
+// LAKELIST HERO SECTION
+
+.lakelist-hero {
+  .grid-container {
+    padding: 0;
+  }
+  .hero {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 65%, rgba(0, 0, 0, 0.72) 100%), url(../img/lake_hero.jpg);
+    height: 110vh;
+    margin-top: -175px;
+    background-size: cover;
+    @include mobileland {
+      height: 130vh;
+    }
+    .white-box {
+      width: 61.563rem;
+      height: 9.375rem;
+      background: rgba(255, 255, 255, 0.21);
+      margin: 0 auto;
+      margin-top: 50vh;
+
+      @include tabletport {
+        width: auto;
+      }
+
+      @include breakpoint(small only) {
+        width: auto;
+        height: auto;
+      }
+
+      @include mobileland {
+        margin-top: 70vh;
+      }
+
+      h1 {
+        color: white;
+        text-align: center;
+        padding-top: 3rem;
+        text-transform: uppercase;
+        @include breakpoint(small only) {
+          padding: 1rem 0;
+        }
+      }
+    }
+  }
+}
+
+// LAKE LIST HEADER/CONTENT SECTION
+
+.lake-header {
+  margin-top: 3.75rem;
+  padding-left: 2rem;
+  @include breakpoint(small only) {
+    padding-left: 0.4rem;
+  }
+  .medium-10 {
+    width: 81.3333%;
+    @include breakpoint(xlarge down) {
+      width: 75.333%;
+    }
+    @include tabletland {
+      width: 71%;
+    }
+    @include tabletport {
+      width: 90%;
+    }
+  }
+  &__ver-bar {
+    width: 0.375rem;
+    height: 4.563rem;
+    background-color: #84916c;
+    @include mobileport {
+      display: none;
+    }
+  }
+  &__main-header {
+    margin-left: -7%;
+    margin-top: -0.8rem;
+    h1 {
+      color: #407a61;
+      font-family: $proxima;
+      font-size: 3.063rem;
+      font-weight: 900;
+      letter-spacing: 0.046rem;
+      text-transform: uppercase;
+      @include breakpoint(lmedium down) {
+        font-size: 2.7rem;
+      }
+      @include breakpoint(medium down) {
+        font-size: 2rem;
+      }
+      @include tabletland {
+        font-size: 2.3rem;
+      }
+      @include tabletport {
+        font-size: 2.5rem;
+      }
+      @include breakpoint(small only) {
+        font-size: 2rem;
+        line-height: 1.1;
+      }
+    }
+    h2 {
+      color: #407a61;
+      font-family: $proxima;
+      font-size: 1.875rem;
+      font-weight: 700;
+      letter-spacing: 0.188rem;
+      text-transform: uppercase;
+      margin-top: -1.3rem;
+      @include breakpoint(lmedium down) {
+        font-size: 1.5rem;
+      }
+      @include breakpoint(medium down) {
+        font-size: 1.3rem;
+      }
+      @include breakpoint(small only) {
+        font-size: 1.3rem;
+        line-height: 1.1;
+        margin-top: -0.5rem;
+      }
+    }
+  }
+  &__button {
+    width: 18.813rem;
+    height: 2.875rem;
+    box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.43);
+    background-color: #84916c;
+    opacity: 0.75;
+    color: #ffffff;
+    font-family: $proxima;
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: 0.175rem;
+    text-transform: uppercase;
+    padding-top: 0.6rem;
+ }
+ .reserve-now {
+   @include breakpoint(medium down) {
+     margin-left: 3rem;
+     margin-top: 1rem;
+   }
+ }
+ &__description {
+   margin-top: 6.25rem;
+   p {
+     font-family: $proxima;
+     font-size: 1.5rem;
+     font-weight: 400;
+     letter-spacing: 0.026rem;
+     padding-right: 5rem;
+     @include breakpoint(medium down) {
+       padding-right: 3rem;
+     }
+     @include tabletland {
+       padding-right: 0;
+     }
+     @include breakpoint(small only) {
+       text-align: center;
+       padding: 0 1rem;
+     }
+     @include mobileport {
+       text-align: left;
+       padding: 0;
+       padding-left: 0.3rem;
+     }
+   }
+  }
+}
+
+// LAKE LIST SECTION
+
+.lake-list {
+  @extend .charter-list;
+  margin-top: 60px;
+  h4 {
+    color: #84916c;
+    font-family: $proxima;
+    font-size: 2.313rem;
+    font-weight: 700;
+    letter-spacing: 0.231rem;
+    text-transform: uppercase;
+    margin-bottom: 90px;
+    @include breakpoint(xlarge down) {
+      font-size: 2rem;
+    }
+    @include breakpoint(large down) {
+      font-size: 1.7rem;
+    }
+    @include tabletland {
+      font-size: 1.4rem;
+    }
+    @include tabletport {
+      font-size: 1.6rem;
+    }
+    @include breakpoint(small only) {
+      font-size: 0.8rem;
+    }
+    @include mobileland {
+      font-size: 1rem;
+    }
+  }
+  h5 {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: $proxima;
+    font-size: 2.25rem;
+    font-weight: 400;
+    letter-spacing: 0.034rem;
+    @include breakpoint(xlarge down) {
+      font-size: 1.75rem;
+    }
+    @include breakpoint(large down) {
+      font-size: 1.5rem;
+    }
+    @include tabletland {
+      font-size: 1.2rem;
+    }
+    @include breakpoint(small only) {
+      font-size: 0.8rem;
+    }
+  }
+  hr {
+    max-width: 100%;
+    height: 0.063rem;
+    border: 0.063rem solid #707070;
+    background-color: black;
+  }
+}
+
+
+/*******************************************************
+                WILDLIFE PAGES
+*******************************************************/
+
+.wildlife-header {
+  margin-top: 3.75rem;
+  padding-left: 2rem;
+
+  @include breakpoint(small only) {
+    padding-left: 0.3rem;
+  }
+
+  .xlarge-offset-2 {
+    margin-left: 20%;
+    @include breakpoint(large down) {
+      margin-left: 6%;
+    }
+    @include breakpoint(medium down) {
+      margin-left: 0;
+    }
+  }
+
+  .medium-1 {
+    width: 1.333%;
+  }
+
+  .medium-9 {
+    @include breakpoint(xlarge down) {
+      width: 68.333%;
+    }
+    @include mobileland {
+      width: 100%;
+    }
+    @include breakpoint(small only) {
+      width: 100%;
+    }
+  }
+
+  &__ver-bar {
+    width: 0.375rem;
+    height: 4.563rem;
+    background-color: #84916c;
+    @include mobileport {
+      display: none;
+    }
+  }
+
+  &__main-header {
+    margin-top: -0.8rem;
+    h1 {
+      color: #507863;
+      font-family: $proxima;
+      font-size: 3.063rem;
+      font-weight: 900;
+      letter-spacing: 0.046rem;
+      text-transform: uppercase;
+      @include tabletland {
+        font-size: 2.99rem;
+      }
+      @include breakpoint(medium down) {
+        font-size: 2.9rem;
+      }
+      @include mobileport {
+        font-size: 1.8rem;
+      }
+    }
+
+    h2 {
+      color: #507863;
+      font-family: $proxima;
+      font-size: 1.875rem;
+      font-weight: 700;
+      letter-spacing: 0.188rem;
+      text-transform: uppercase;
+      margin-top: -1.3rem;
+      @include mobileport {
+        font-size: 1.3rem;
+        margin-top: -1rem;
+      }
+    }
+  }
+
+  &__button {
+    width: 18.813rem;
+    height: 2.875rem;
+    box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.43);
+    background-color: #a3ac91;
+    color: #ffffff;
+    font-family: $proxima;
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: 0.175rem;
+    text-transform: uppercase;
+    padding-top: 0.6rem;
+ }
+}
+
+.tour-header {
+  margin-top: 3.75rem;
+  padding-left: 2rem;
+
+  @include mobileport {
+    padding-left: 0.5rem;
+  }
+
+  .xlarge-offset-2 {
+    margin-left: 20%;
+    @include breakpoint(xlarge down) {
+      margin-left: 10%;
+    }
+    @include breakpoint(large down) {
+      margin-left: 0;
+    }
+  }
+
+  .medium-9 {
+    @include tabletland {
+      width: 58%;
+      &:last-child {
+        width: 75%;
+      }
+    }
+  }
+
+  .small-1 {
+    @include mobileport {
+      width: 0;
+    }
+  }
+
+  &__ver-bar {
+    width: 0.375rem;
+    height: 4.563rem;
+    background-color: #467588;
+    @include mobileport {
+      display: none;
+    }
+  }
+
+  &__main-header {
+    margin-left: -8.75rem;
+    margin-top: -0.8rem;
+
+    @include breakpoint(xlarge down) {
+      margin-left: -5.75rem;
+    }
+
+    @include breakpoint(large down) {
+      margin-left: -4.75rem;
+      margin-top: -0.8rem;
+    }
+
+    @include breakpoint(lmedium down) {
+      margin-left: -3.7rem;
+    }
+
+    @include mobileport {
+      margin-left: 0 !important;
+    }
+
+    h1 {
+      color: #00384f;
+      font-family: $proxima;
+      font-size: 3.063rem;
+      font-weight: 900;
+      letter-spacing: 0.046rem;
+      text-transform: uppercase;
+      @include tabletland {
+        font-size: 2.5rem;
+      }
+      @include breakpoint(medium down) {
+        font-size: 2.9rem;
+      }
+      @include mobileport {
+        font-size: 1.8rem;
+      }
+    }
+
+    h2 {
+      color: #00384f;
+      font-family: $proxima;
+      font-size: 1.875rem;
+      font-weight: 700;
+      letter-spacing: 0.188rem;
+      text-transform: uppercase;
+      margin-top: -1.3rem;
+      @include tabletland {
+        font-size: 1.5rem;
+      }
+      @include mobileport {
+        font-size: 1.3rem;
+        margin-top: -1rem;
+      }
+    }
+  } // MAIN HEADER
+
+  &__button {
+    width: 18.813rem;
+    height: 2.875rem;
+    box-shadow: 0 0.188rem 0.375rem rgba(0, 0, 0, 0.43);
+    background-color: #00384f;
+    opacity: 0.75;
+    color: #ffffff;
+    font-family: $proxima;
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: 0.175rem;
+    text-transform: uppercase;
+    padding-top: 0.6rem;
+    @include breakpoint(xlarge down) {
+      margin-left: 4rem;
+    }
+    @include breakpoint(medium down) {
+      margin-left: 0;
+    }
+  } // BUTTON
+}
+
+.kayaking-large {
+  @include breakpoint(large) {
+    display: block;
+  }
+  @include breakpoint(lmedium down) {
+    display: none;
+  }
+}
+
+.kayaking-medium {
+  @include breakpoint(large) {
+    display: none;
+  }
+  @include breakpoint(medium down) {
+    display: block;
+  }
+}
+
+.tour-description {
+  margin-top: 6.25rem;
+
+  h3 {
+    color: #467588;
+    font-family: $proxima;
+    font-size: 1.875rem;
+    font-weight: 700;
+    letter-spacing: 0.188rem;
+    text-transform: uppercase;
+    @include tabletland {
+      padding-right: 3rem;
+      padding-left: 2rem;
+    }
+  }
+
+  p {
+    line-height: 1.3;
+    color: rgba(0, 0, 0, 0.8);
+    &:last-child {
+      padding-top: 20px;
+    }
+  }
+
+  .wildlifeh3 {
+    color: #879070;
+  }
+
+  h6 {
+    color: #000;
+    font-family: $proxima;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.026rem;
+    line-height: 1.3;
+    text-align: left;
+    padding-left: 0;
+    padding-bottom: 20px;
+    @include tabletland {
+      padding-right: 0;
+    }
+    @include breakpoint(medium down) {
+      font-size: 1.3rem;
+      padding-right: 1rem;
+    }
+  }
+
+  p {
+    font-family: $proxima;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.026rem;
+    padding-right: 5rem;
+    @include tabletland {
+      padding-right: 3rem;
+      padding-left: 2rem;
+    }
+    @include breakpoint(medium down) {
+      font-size: 1.3rem;
+      padding-right: 2rem;
+    }
+  }
+}
+
+.duration-header {
+  margin-top: 1.8rem;
+  margin-bottom: 3rem;
+  h3 {
+    color: #467588;
+    font-family: $proxima;
+    font-size: 1.875rem;
+    font-weight: 700;
+    letter-spacing: 0.188rem;
+    text-transform: uppercase;
+    @include tabletland {
+      padding-left: 2rem;
+    }
+  }
+  .wildlifeh3 {
+    color: #879070;
+  }
+  h4 {
+    opacity: 0.7;
+    color: #467588;
+    font-family: $proxima;
+    font-size: 2.063rem;
+    font-weight: 600;
+    letter-spacing: 0.206rem;
+    @include tabletland {
+      padding-left: 2rem;
+    }
+  }
+ }
